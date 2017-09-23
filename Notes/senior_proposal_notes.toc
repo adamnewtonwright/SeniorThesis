@@ -1,0 +1,29 @@
+\contentsline {section}{\numberline {1}Senior Proposal}{11}{section.1}
+\contentsline {subsection}{\numberline {1.1}Abstract}{11}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Statement of Problem and Significance of Research}{11}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Plan of Procedure}{12}{subsection.1.3}
+\contentsline {section}{\numberline {2}Resources}{14}{section.2}
+\contentsline {subsection}{\numberline {2.1}Optical Magnetometry-Budker}{14}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Improving LGS through polarization switching - Fan}{23}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Improve Atmospheric Distortion Measurement - Fugate}{40}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Kilohertz Picosecond Dye Laser - Gale}{44}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Magnetic Resonant Pulsing-Kane}{51}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Physics of Sodium LGS - Kibblewhite}{59}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Optimization of Pulsed LGS - Rampy}{61}{subsection.2.7}
+\contentsline {subsection}{\numberline {2.8}Optimization of CW LGS - Holzlohner (Rampy)}{71}{subsection.2.8}
+\contentsline {subsection}{\numberline {2.9}Modular Reconfigurable Dye Laser of Undergrad Lab - AJP}{86}{subsection.2.9}
+\contentsline {subsection}{\numberline {2.10}W.M. Keck Observatory AO System}{101}{subsection.2.10}
+\contentsline {subsection}{\numberline {2.11}Continuously Tunable Picosecond Dye Laser}{130}{subsection.2.11}
+\contentsline {section}{\numberline {3}Citations}{133}{section.3}
+\contentsline {subsection}{\numberline {3.1}Brackman, LambdaChrome}{133}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Budker, Optical Magnetometry}{133}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Fan, Improving LGS through Polarization Switching}{133}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Fugate, Measuring Wavefront Distortion}{133}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Gale, Kilohertz Picosecond Dye Laser}{133}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Kane, Pulsed Laser Architecture}{133}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Kibblewhite, Physics of LGS}{133}{subsection.3.7}
+\contentsline {subsection}{\numberline {3.8}Rampy, Toward Optimization of pulsed LGS}{133}{subsection.3.8}
+\contentsline {subsection}{\numberline {3.9}Holzlohner, Optimization of CW LGS}{133}{subsection.3.9}
+\contentsline {subsection}{\numberline {3.10}Sohl (AJP), Modular Reconfigurable Pulsed Dye Laser}{133}{subsection.3.10}
+\contentsline {subsection}{\numberline {3.11}Watanable, Advancement in Adaptive Optics}{133}{subsection.3.11}
+\contentsline {subsection}{\numberline {3.12}Wizinowich, W.M. Keck Observatory System}{134}{subsection.3.12}

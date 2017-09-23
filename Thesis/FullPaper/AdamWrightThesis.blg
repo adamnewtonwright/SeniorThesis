@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: AdamWrightThesis.aux
+The style file: amsalpha.bst
+Database file #1: ../ThesisBib/thesisbib.bib
+I was expecting a `,' or a `}'---line 1478 of file ../ThesisBib/thesisbib.bib
+ :  
+ :  year={2007},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1959 of file ../ThesisBib/thesisbib.bib
+ :   author = "K. Singer and M. Tscherneck and M. Eichhorn and M. Reetz-Lamour and M. Weidem\"
+ :                                                                                            uller",
+I'm skipping whatever remains of this entry
+You've used 1 entry,
+            2624 wiz_defined-function locations,
+            565 strings with 4637 characters,
+and the built_in function-call counts, 585 in all, are:
+= -- 45
+> -- 45
+< -- 0
++ -- 17
+- -- 17
+* -- 59
+:= -- 108
+add.period$ -- 1
+call.type$ -- 1
+change.case$ -- 11
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 14
+empty$ -- 31
+format.name$ -- 17
+if$ -- 104
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 2
+newline$ -- 14
+num.names$ -- 3
+pop$ -- 11
+preamble$ -- 1
+purify$ -- 12
+quote$ -- 0
+skip$ -- 9
+stack$ -- 0
+substring$ -- 25
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 0
+while$ -- 4
+width$ -- 2
+write$ -- 20
+(There were 2 error messages)

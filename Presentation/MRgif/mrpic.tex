@@ -1,0 +1,26 @@
+\documentclass[]{minimal}
+\usepackage{tikz}
+\begin{document}
+
+\noindent
+\begin{tikzpicture}
+  \draw[dashed] (0,2.5) ellipse (1cm and .5cm) node (ellipse) {};
+  \draw[->, blue,  line width = 3pt] (sphere.center) -- (0,2);
+  \shade [ball color=red] (0,0) circle [radius=1cm] node (sphere){};
+\end{tikzpicture}
+\begin{tikzpicture}
+  \draw[dashed] (0,2.5) ellipse (1cm and .5cm) node (ellipse) {};
+  \draw[->, blue,  line width = 3pt] (sphere.center) -- (1,2.5);
+  \shade [ball color=red] (0,0) circle [radius=1cm] node (sphere){};
+\end{tikzpicture}
+\begin{tikzpicture}
+  \draw[dashed] (0,2.5) ellipse (1cm and .5cm) node (ellipse) {};
+  \draw[->, blue,  line width = 3pt] (sphere.center) -- (0,3);
+  \shade [ball color=red] (0,0) circle [radius=1cm] node (sphere){};
+\end{tikzpicture}
+\begin{tikzpicture}
+  \draw[dashed] (0,2.5) ellipse (1cm and .5cm) node (ellipse) {};
+  \draw[->, blue,  line width = 3pt] (sphere.center) -- (-1,2.5);
+  \shade [ball color=red] (0,0) circle [radius=1cm] node (sphere){};
+\end{tikzpicture}
+\end{document}

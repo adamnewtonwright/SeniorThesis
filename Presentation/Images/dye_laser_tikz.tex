@@ -1,0 +1,92 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{calc,positioning}
+
+\tikzstyle{rect}=[draw, minimum height=1cm, minimum width=1cm, inner sep=0pt, outer sep=0pt]
+
+
+\begin{document}
+
+\begin{figure}[h]
+  \centering
+  \begin{tikzpicture}
+	\node at (0,0) ();
+	\draw (0,0) rectangle (2,1);
+	\draw [green,line width = 1.6pt] (2,.5) --  (4.2,.5);
+	\draw [green,line width = 1.6pt] (4.2,.5) --  (4.2,3);
+	\draw [->,line width=1.5pt] (4.3,0) arc (-120:20:.5);
+	\node at (5.3,0) (){$\theta$};
+	\node at (1,.5) (){Laser};
+
+	\draw [rotate around={45:(4,0)}] (4,0) rectangle (5,.2) ;
+  \end{tikzpicture}
+  \caption{<+caption text+>}
+  \label{fig:<+label+>}
+\end{figure}
+
+
+\pagebreak
+\begin{tikzpicture}
+  \node at (0,0) ();
+  \node [block] (head)  {\Large Components of a Laser};
+  \node [below of = head, node distance = 1.5cm] (pump) {\large Pump};
+  \node [left of = pump, node distance = 5cm] (medium) {\large Medium};
+  \node [right of= pump, node distance = 5cm] (cavity) {\large Cavity};
+  \node [below of = medium](solid) {Solid};
+  \node [left of =solid, node distance = 1.5cm](gas) {Gas};
+  \node [right of = solid, node distance = 1.5cm](liquid) {Liquid};
+
+  \draw [->] (medium) -- (solid);
+  \draw [->] (medium) -- (gas);
+  \draw [->] (medium) -- (liquid);
+  
+ \node [below of = pump] (flash) {Flash Lamp};
+ \node [left of = flash,node distance = 1.7cm] (laser) {Laser};
+ \node [right of= flash,node distance = 1.7cm] (voltage) {Voltage};
+ \node [below of =cavity] (mirror) {Mirror};
+
+ \draw[->] (cavity) -- (mirror);
+ \draw [->] (pump) -- (flash);
+ \draw [->] (pump) -- (laser);
+ \draw [->] (pump) -- (voltage);
+ \draw [->] (head) -- (medium);
+ \draw [->] (head) -- (pump);
+ \draw [->] (head) -- (cavity);
+\end{tikzpicture}
+
+\pagebreak
+\begin{tikzpicture}[rotate = -90]
+  \node at (0,0);
+  %\draw [black, line width = 1.6pt] (0,0) rectangle (1,2) (cell);
+  \node[rect, ultra thick] (cell) at (.5,1) {};
+
+  \draw [black,rotate around = {-65:(1.2,3.2)},line width = 1.6pt] (-.7,3) rectangle (1.2,3.2) (diffraction);
+  
+  \draw [orange, line width  = 1.6pt] (.5,1.5) -- (.5,4.25);
+  \draw [->,orange, line width  = 1.6pt] (.5,4.25) -- (-1,5);
+  \node at (-1,5.5) {\small$0^{th}$};
+  \node at (-.8,3.7) {\small$1^{st}$};
+  \draw [black,rotate around = {-50:(-.5,2.5)},line width = 1.6pt] (-.5,2.5) rectangle (-2.4,2.7) (diffraction);
+  \draw [orange, line width = 1.6pt] (.5,4.25) -- (-.9,3.3);
+  \node [above of = cell, node distance = 1cm] (dye) {Dye Cell};
+  \node [draw, line width =1.6pt, minimum height = 1.5cm, minimum width = .2cm,  left of = cell, node distance = 2cm] (mirror1); 
+  \draw [orange, line width = 1.6pt] (cell.west) -- (mirror1);
+  \node at (1.5,4.5) (diff) {Diffraction } ;
+  \node [below of= diff, node distance = .5cm] {Grating} ;
+  \node at (-2.5,4) (mirror) {Mirror}; 
+  \node [above of = mirror, node distance = .5cm] {Tuning};
+  \draw [<->,line width=1.5pt] (-1.2,2.5) arc (250:200:1.5);
+  \node at (-1,2.3) {$\theta$};
+  \node [below left of = mirror1] {Mirror};
+\end{tikzpicture}
+
+\pagebreak
+
+\begin{tikzpicture}
+  \node [draw, minimum height = 1cm, minimum width = .2cm, line width = 1.6pt] (cell);
+  \node [above of = cell] {Cell};
+  \draw [green, line width = 1.6pt] (cell.east) -- (cell.west);
+
+  \node [draw, left of = cell, minimum width = .1cm, minimum height = .5cm, line width = 1.6pt, node distance = 2cm] (mirror1);
+\end{tikzpicture}
+\end{document}

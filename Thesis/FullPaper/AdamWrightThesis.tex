@@ -1,0 +1,60 @@
+\documentclass[12pt]{report}
+\usepackage{../Style/WUbiblio,../Style/WUthesis}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb} 
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.7}
+
+
+
+\begin{document}
+
+\title{Magnetic Resonant Pulsed Pumping of Rubidium}
+\author{Adam Newton Wright}
+\thesissupervisor{Dr. Micheala Kleinert}
+
+\maketitle
+
+
+\newpage
+
+\begin{center}
+\textbf{Presentations and Publications}\\
+blahblah
+\end{center}
+
+
+
+\begin{acknowledgments}
+Thanks to everyone!
+\end{acknowledgments}
+
+\begin{abstract}
+My abstract goes here.
+\end{abstract}
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+\pagebreak
+\cite{LukinZoller2001}
+%Chapter 1: 
+\input{Introduction/intro.tex}
+
+%Chapter 2: 
+%inputinclude{apparatus}
+
+%\bibliographystyle{urcsbiblio}
+\bibliographystyle{amsalpha}
+\bibliography{../ThesisBib/thesisbib}
+
+\appendix
+%\include{notebook}
+
+\end{document}

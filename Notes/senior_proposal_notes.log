@@ -1,0 +1,3374 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 JUN 2017 21:53
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**senior_proposal_notes.tex
+(./senior_proposal_notes.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count87
+\Gm@cntv=\count88
+\c@Gm@tempcnt=\count89
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen111
+\Hy@linkcounter=\count90
+\Hy@pagecounter=\count91
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count92
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count93
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen112
+\Fld@menulength=\count94
+\Field@Width=\dimen113
+\Fld@charsize=\dimen114
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count95
+\c@Item=\count96
+\c@Hfootnote=\count97
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count98
+\c@bookmark@seq@number=\count99
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2015/05/11 v0.4x Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count100
+\calc@Bcount=\count101
+\calc@Adimen=\dimen115
+\calc@Bdimen=\dimen116
+\calc@Askip=\skip44
+\calc@Bskip=\skip45
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count102
+\calc@Cskip=\skip46
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/04/20 v2.0e eso-pic (RN)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count103
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+)
+\Gin@req@height=\dimen117
+\Gin@req@width=\dimen118
+)
+\AM@pagewidth=\dimen119
+\AM@pageheight=\dimen120
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2015/05/11 v0.4x Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@toc@title=\toks16
+\c@AM@survey=\count104
+\AM@templatesizebox=\box27
+)
+(./senior_proposal_notes.aux)
+\openout1 = `senior_proposal_notes.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box28
+Package hyperref Info: Link coloring OFF on input line 9.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count105
+)
+LaTeX Info: Redefining \ref on input line 9.
+LaTeX Info: Redefining \pageref on input line 9.
+LaTeX Info: Redefining \nameref on input line 9.
+
+(./senior_proposal_notes.out) (./senior_proposal_notes.out)
+\@outlinefile=\write3
+\openout3 = `senior_proposal_notes.out'.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count106
+\scratchdimen=\dimen121
+\scratchbox=\box29
+\nofMPsegments=\count107
+\nofMParguments=\count108
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count109
+\MPscratchDim=\dimen122
+\MPnumerator=\count110
+\makeMPintoPDFobject=\count111
+\everyMPtoPDFconversion=\toks18
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 12.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 12.
+
+[1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./senior_proposal_notes.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+)
+\tf@toc=\write4
+\openout4 = `senior_proposal_notes.toc'.
+
+ [2]
+<PDF/senior_proposal.pdf, id=166, 614.295pt x 794.97pt>
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf>
+Package pdftex.def Info: PDF/senior_proposal.pdf used on input line 23.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+ <use PDF/senior_proposal.pdf>
+Package pdftex.def Info: PDF/senior_proposal.pdf used on input line 23.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<PDF/senior_proposal.pdf, id=169, page=1, 614.295pt x 794.97pt>
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 1>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page1 used on input line 23.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+ <use PDF/senior_proposal.pdf, page 1>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page1 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 1>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page1 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+ <use PDF/senior_proposal.pdf, page 1>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page1 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+<PDF/senior_proposal.pdf, id=170, page=2, 614.295pt x 794.97pt>
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 2>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page2 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+ <use PDF/senior_proposal.pdf, page 2>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page2 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 1>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page1 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [3 <./PDF/senior_proposal.pdf>]
+<PDF/senior_proposal.pdf, id=216, page=3, 614.295pt x 794.97pt>
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 3>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page3 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+ <use PDF/senior_proposal.pdf, page 3>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page3 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 2>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page2 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [4 <./PDF/senior_proposal.pdf>]
+<PDF/senior_proposal.pdf, id=225, page=4, 614.295pt x 794.97pt>
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 4>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page4 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+ <use PDF/senior_proposal.pdf, page 4>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page4 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 3>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page3 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [5 <./PDF/senior_proposal.pdf>]
+<PDF/senior_proposal.pdf, id=238, page=5, 614.295pt x 794.97pt>
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 5>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page5 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+ <use PDF/senior_proposal.pdf, page 5>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page5 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 4>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page4 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [6 <./PDF/senior_proposal.pdf>]
+<PDF/senior_proposal.pdf, id=253, page=6, 614.295pt x 794.97pt>
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 6>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page6 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+ <use PDF/senior_proposal.pdf, page 6>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page6 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 5>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page5 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [7 <./PDF/senior_proposal.pdf>]
+<PDF/senior_proposal.pdf, id=263, page=7, 614.295pt x 794.97pt>
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 7>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page7 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+ <use PDF/senior_proposal.pdf, page 7>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page7 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 6>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page6 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [8 <./PDF/senior_proposal.pdf>]
+<PDF/senior_proposal.pdf, id=282, page=8, 614.295pt x 794.97pt>
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 8>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page8 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+ <use PDF/senior_proposal.pdf, page 8>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page8 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 7>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page7 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [9 <./PDF/senior_proposal.pdf>]
+File: PDF/senior_proposal.pdf Graphic file (type pdf)
+
+<use PDF/senior_proposal.pdf, page 8>
+Package pdftex.def Info: PDF/senior_proposal.pdf, page8 used on input line 23.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [10 <./PDF/senior_proposal.pdf>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--42
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 46--51
+
+ []
+
+[12] [13] [14]
+<PDF/Optical_magnetometry.pdf, id=316, 597.50829pt x 785.29585pt>
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf used on input line 66.
+(pdftex.def)             Requested size: 597.50682pt x 785.29393pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+ <use PDF/Optical_magnetometry.pdf>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf used on input line 66.
+(pdftex.def)             Requested size: 597.50682pt x 785.29393pt.
+
+<PDF/Optical_magnetometry.pdf, id=319, page=1, 597.50829pt x 785.29585pt>
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 1>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page1 used on input line
+ 66.
+(pdftex.def)             Requested size: 597.50682pt x 785.29393pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 1>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page1 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 1>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page1 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 1>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page1 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+
+<PDF/Optical_magnetometry.pdf, id=320, page=2, 597.50829pt x 785.29585pt>
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 2>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page2 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 2>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page2 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 1>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page1 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+ [15 <./PDF/Optical_magnetometry.pdf>] <PDF/Optical_magnetometry.pdf, id=387, p
+age=3, 597.50829pt x 785.29585pt>
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 3>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page3 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 3>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page3 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 2>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page2 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+ [16 <./PDF/Optical_magnetometry.pdf>] <PDF/Optical_magnetometry.pdf, id=426, p
+age=4, 597.50829pt x 785.29585pt>
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 4>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page4 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 4>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page4 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 3>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page3 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+ [17 <./PDF/Optical_magnetometry.pdf>] <PDF/Optical_magnetometry.pdf, id=439, p
+age=5, 597.50829pt x 785.29585pt>
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 5>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page5 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 5>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page5 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 4>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page4 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+ [18 <./PDF/Optical_magnetometry.pdf>] <PDF/Optical_magnetometry.pdf, id=444, p
+age=6, 597.50829pt x 785.29585pt>
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 6>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page6 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 6>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page6 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 5>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page5 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+ [19 <./PDF/Optical_magnetometry.pdf>] <PDF/Optical_magnetometry.pdf, id=450, p
+age=7, 597.50829pt x 785.29585pt>
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 7>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page7 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 7>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page7 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 6>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page6 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+ [20 <./PDF/Optical_magnetometry.pdf>] <PDF/Optical_magnetometry.pdf, id=468, p
+age=8, 597.50829pt x 785.29585pt>
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 8>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page8 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 8>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page8 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+
+<use PDF/Optical_magnetometry.pdf, page 7>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page7 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+ [21 <./PDF/Optical_magnetometry.pdf>]
+File: PDF/Optical_magnetometry.pdf Graphic file (type pdf)
+ <use PDF/Optical_magnetometry.pdf, page 8>
+Package pdftex.def Info: PDF/Optical_magnetometry.pdf, page8 used on input line
+ 66.
+(pdftex.def)             Requested size: 605.09235pt x 795.26347pt.
+ [22 <./PDF/Optical_magnetometry.pdf>] [23]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=486, 614.295pt x 7
+94.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+ <use PDF/Improving_lgs_brightness_polarization_switching.pdf>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f used on input line 73.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f used on input line 73.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=489, page=1, 614.2
+95pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 1>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page1 used on input line 73.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 1>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page1 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 1>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page1 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 1>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page1 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=490, page=2, 614.2
+95pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 2>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page2 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 2>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page2 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 1>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page1 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [24 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=527, page=3, 614.2
+95pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 3>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page3 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 3>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page3 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 2>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page2 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [25 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=538, page=4, 614.2
+95pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 4>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page4 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 4>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page4 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 3>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page3 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [26 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=548, page=5, 614.2
+95pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 5>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page5 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 5>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page5 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 4>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page4 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [27 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=560, page=6, 614.2
+95pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 6>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page6 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 6>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page6 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 5>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page5 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [28 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=570, page=7, 614.2
+95pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 7>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page7 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 7>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page7 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 6>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page6 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [29 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=575, page=8, 614.2
+95pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 8>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page8 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 8>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page8 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 7>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page7 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [30 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=581, page=9, 614.2
+95pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 9>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page9 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 9>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page9 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 8>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page8 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [31 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=587, page=10, 614.
+295pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 10>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page10 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 10>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page10 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 9>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page9 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [32 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=610, page=11, 614.
+295pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 11>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page11 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 11>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page11 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 10>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page10 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [33 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=616, page=12, 614.
+295pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 12>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page12 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 12>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page12 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 11>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page11 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [34 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=622, page=13, 614.
+295pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 13>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page13 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 13>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page13 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 12>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page12 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [35 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=627, page=14, 614.
+295pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 14>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page14 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 14>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page14 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 13>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page13 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [36 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=632, page=15, 614.
+295pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 15>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page15 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 15>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page15 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 14>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page14 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [37 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+<PDF/Improving_lgs_brightness_polarization_switching.pdf, id=638, page=16, 614.
+295pt x 794.97pt>
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 16>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page16 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 16>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page16 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+
+<use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 15>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page15 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [38 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>]
+File: PDF/Improving_lgs_brightness_polarization_switching.pdf Graphic file (typ
+e pdf)
+ <use PDF/Improving_lgs_brightness_polarization_switching.pdf, page 16>
+Package pdftex.def Info: PDF/Improving_lgs_brightness_polarization_switching.pd
+f, page16 used on input line 73.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+[39 <./PDF/Improving_lgs_brightness_polarization_switching.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Improving_lgs_brightness_polarization_swit
+ching.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSe
+ts', type <array>); ignored.
+>] [40]
+<PDF/measurement_atmospheric_distortion.pdf, id=659, 620.3175pt x 882.29625pt>
+File: PDF/measurement_atmospheric_distortion.pdf Graphic file (type pdf)
+
+<use PDF/measurement_atmospheric_distortion.pdf>
+Package pdftex.def Info: PDF/measurement_atmospheric_distortion.pdf used on inp
+ut line 79.
+(pdftex.def)             Requested size: 620.316pt x 882.2941pt.
+File: PDF/measurement_atmospheric_distortion.pdf Graphic file (type pdf)
+
+<use PDF/measurement_atmospheric_distortion.pdf>
+Package pdftex.def Info: PDF/measurement_atmospheric_distortion.pdf used on inp
+ut line 79.
+(pdftex.def)             Requested size: 620.316pt x 882.2941pt.
+
+<PDF/measurement_atmospheric_distortion.pdf, id=662, page=1, 620.3175pt x 882.2
+9625pt>
+File: PDF/measurement_atmospheric_distortion.pdf Graphic file (type pdf)
+ <use PDF/measurement_atmospheric_distortion.pdf, page 1>
+Package pdftex.def Info: PDF/measurement_atmospheric_distortion.pdf, page1 used
+ on input line 79.
+(pdftex.def)             Requested size: 620.316pt x 882.2941pt.
+File: PDF/measurement_atmospheric_distortion.pdf Graphic file (type pdf)
+
+<use PDF/measurement_atmospheric_distortion.pdf, page 1>
+Package pdftex.def Info: PDF/measurement_atmospheric_distortion.pdf, page1 used
+ on input line 79.
+(pdftex.def)             Requested size: 559.10408pt x 795.23056pt.
+File: PDF/measurement_atmospheric_distortion.pdf Graphic file (type pdf)
+
+<use PDF/measurement_atmospheric_distortion.pdf, page 1>
+Package pdftex.def Info: PDF/measurement_atmospheric_distortion.pdf, page1 used
+ on input line 79.
+(pdftex.def)             Requested size: 559.10408pt x 795.23056pt.
+File: PDF/measurement_atmospheric_distortion.pdf Graphic file (type pdf)
+
+<use PDF/measurement_atmospheric_distortion.pdf, page 1>
+Package pdftex.def Info: PDF/measurement_atmospheric_distortion.pdf, page1 used
+ on input line 79.
+(pdftex.def)             Requested size: 559.10408pt x 795.23056pt.
+
+<PDF/measurement_atmospheric_distortion.pdf, id=663, page=2, 620.3175pt x 882.2
+9625pt>
+File: PDF/measurement_atmospheric_distortion.pdf Graphic file (type pdf)
+ <use PDF/measurement_atmospheric_distortion.pdf, page 2>
+Package pdftex.def Info: PDF/measurement_atmospheric_distortion.pdf, page2 used
+ on input line 79.
+(pdftex.def)             Requested size: 559.10408pt x 795.23056pt.
+File: PDF/measurement_atmospheric_distortion.pdf Graphic file (type pdf)
+
+<use PDF/measurement_atmospheric_distortion.pdf, page 2>
+Package pdftex.def Info: PDF/measurement_atmospheric_distortion.pdf, page2 used
+ on input line 79.
+(pdftex.def)             Requested size: 559.10408pt x 795.23056pt.
+File: PDF/measurement_atmospheric_distortion.pdf Graphic file (type pdf)
+
+<use PDF/measurement_atmospheric_distortion.pdf, page 1>
+Package pdftex.def Info: PDF/measurement_atmospheric_distortion.pdf, page1 used
+ on input line 79.
+(pdftex.def)             Requested size: 559.10408pt x 795.23056pt.
+ [41 <./PDF/measurement_atmospheric_distortion.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/measurement_atmospheric_distortion.pdf): P
+DF inclusion: invalid other resource which is no dict (key 'ProcSets', type <ar
+ray>); ignored.
+>]
+<PDF/measurement_atmospheric_distortion.pdf, id=671, page=3, 620.3175pt x 882.2
+9625pt>
+File: PDF/measurement_atmospheric_distortion.pdf Graphic file (type pdf)
+ <use PDF/measurement_atmospheric_distortion.pdf, page 3>
+Package pdftex.def Info: PDF/measurement_atmospheric_distortion.pdf, page3 used
+ on input line 79.
+(pdftex.def)             Requested size: 559.10408pt x 795.23056pt.
+File: PDF/measurement_atmospheric_distortion.pdf Graphic file (type pdf)
+
+<use PDF/measurement_atmospheric_distortion.pdf, page 3>
+Package pdftex.def Info: PDF/measurement_atmospheric_distortion.pdf, page3 used
+ on input line 79.
+(pdftex.def)             Requested size: 559.10408pt x 795.23056pt.
+File: PDF/measurement_atmospheric_distortion.pdf Graphic file (type pdf)
+
+<use PDF/measurement_atmospheric_distortion.pdf, page 2>
+Package pdftex.def Info: PDF/measurement_atmospheric_distortion.pdf, page2 used
+ on input line 79.
+(pdftex.def)             Requested size: 559.10408pt x 795.23056pt.
+ [42 <./PDF/measurement_atmospheric_distortion.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/measurement_atmospheric_distortion.pdf): P
+DF inclusion: invalid other resource which is no dict (key 'ProcSets', type <ar
+ray>); ignored.
+>]
+File: PDF/measurement_atmospheric_distortion.pdf Graphic file (type pdf)
+ <use PDF/measurement_atmospheric_distortion.pdf, page 3>
+Package pdftex.def Info: PDF/measurement_atmospheric_distortion.pdf, page3 used
+ on input line 79.
+(pdftex.def)             Requested size: 559.10408pt x 795.23056pt.
+ [43 <./PDF/measurement_atmospheric_distortion.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/measurement_atmospheric_distortion.pdf): P
+DF inclusion: invalid other resource which is no dict (key 'ProcSets', type <ar
+ray>); ignored.
+>] [44]
+<PDF/kilohertz_picosecond_dyelaser.pdf, id=687, 628.26718pt x 803.64241pt>
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf used on input li
+ne 86.
+(pdftex.def)             Requested size: 628.26564pt x 803.64044pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf used on input li
+ne 86.
+(pdftex.def)             Requested size: 628.26564pt x 803.64044pt.
+
+<PDF/kilohertz_picosecond_dyelaser.pdf, id=690, page=1, 628.26718pt x 803.64241
+pt>
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+ <use PDF/kilohertz_picosecond_dyelaser.pdf, page 1>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page1 used on i
+nput line 86.
+(pdftex.def)             Requested size: 628.26564pt x 803.64044pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 1>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page1 used on i
+nput line 86.
+(pdftex.def)             Requested size: 614.54724pt x 786.09268pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 1>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page1 used on i
+nput line 86.
+(pdftex.def)             Requested size: 614.54724pt x 786.09268pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 1>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page1 used on i
+nput line 86.
+(pdftex.def)             Requested size: 614.54724pt x 786.09268pt.
+
+<PDF/kilohertz_picosecond_dyelaser.pdf, id=691, page=2, 507.3354pt x 713.7867pt
+>
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+ <use PDF/kilohertz_picosecond_dyelaser.pdf, page 2>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page2 used on i
+nput line 86.
+(pdftex.def)             Requested size: 496.25633pt x 698.19922pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 2>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page2 used on i
+nput line 86.
+(pdftex.def)             Requested size: 496.25633pt x 698.19922pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 1>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page1 used on i
+nput line 86.
+(pdftex.def)             Requested size: 614.54724pt x 786.09268pt.
+ [45 <./PDF/kilohertz_picosecond_dyelaser.pdf>]
+<PDF/kilohertz_picosecond_dyelaser.pdf, id=702, page=3, 500.3493pt x 702.22348p
+t>
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+ <use PDF/kilohertz_picosecond_dyelaser.pdf, page 3>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page3 used on i
+nput line 86.
+(pdftex.def)             Requested size: 489.4228pt x 686.88852pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 3>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page3 used on i
+nput line 86.
+(pdftex.def)             Requested size: 489.4228pt x 686.88852pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 2>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page2 used on i
+nput line 86.
+(pdftex.def)             Requested size: 496.25633pt x 698.19922pt.
+ [46 <./PDF/kilohertz_picosecond_dyelaser.pdf>]
+<PDF/kilohertz_picosecond_dyelaser.pdf, id=712, page=4, 485.17259pt x 695.7192p
+t>
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+ <use PDF/kilohertz_picosecond_dyelaser.pdf, page 4>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page4 used on i
+nput line 86.
+(pdftex.def)             Requested size: 474.57751pt x 680.52626pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 4>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page4 used on i
+nput line 86.
+(pdftex.def)             Requested size: 474.57751pt x 680.52626pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 3>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page3 used on i
+nput line 86.
+(pdftex.def)             Requested size: 489.4228pt x 686.88852pt.
+ [47 <./PDF/kilohertz_picosecond_dyelaser.pdf>]
+<PDF/kilohertz_picosecond_dyelaser.pdf, id=719, page=5, 493.845pt x 698.61pt>
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 5>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page5 used on i
+nput line 86.
+(pdftex.def)             Requested size: 483.06053pt x 683.35394pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 5>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page5 used on i
+nput line 86.
+(pdftex.def)             Requested size: 483.06053pt x 683.35394pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 4>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page4 used on i
+nput line 86.
+(pdftex.def)             Requested size: 474.57751pt x 680.52626pt.
+ [48 <./PDF/kilohertz_picosecond_dyelaser.pdf>]
+<PDF/kilohertz_picosecond_dyelaser.pdf, id=726, page=6, 486.61798pt x 699.33267
+pt>
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+ <use PDF/kilohertz_picosecond_dyelaser.pdf, page 6>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page6 used on i
+nput line 86.
+(pdftex.def)             Requested size: 475.99135pt x 684.06084pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 6>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page6 used on i
+nput line 86.
+(pdftex.def)             Requested size: 475.99135pt x 684.06084pt.
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/kilohertz_picosecond_dyelaser.pdf, page 5>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page5 used on i
+nput line 86.
+(pdftex.def)             Requested size: 483.06053pt x 683.35394pt.
+ [49 <./PDF/kilohertz_picosecond_dyelaser.pdf>]
+File: PDF/kilohertz_picosecond_dyelaser.pdf Graphic file (type pdf)
+ <use PDF/kilohertz_picosecond_dyelaser.pdf, page 6>
+Package pdftex.def Info: PDF/kilohertz_picosecond_dyelaser.pdf, page6 used on i
+nput line 86.
+(pdftex.def)             Requested size: 475.99135pt x 684.06084pt.
+
+[50 <./PDF/kilohertz_picosecond_dyelaser.pdf>] [51]
+<PDF/Pulsed_laser_architecture.pdf, id=744, 614.295pt x 794.97pt>
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf used on input line 9
+4.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf used on input line 9
+4.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<PDF/Pulsed_laser_architecture.pdf, id=747, page=1, 614.295pt x 794.97pt>
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 1>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page1 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 1>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page1 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 1>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page1 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 1>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page1 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+<PDF/Pulsed_laser_architecture.pdf, id=748, page=2, 614.295pt x 794.97pt>
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 2>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page2 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 2>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page2 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 1>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page1 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [52 <./PDF/Pulsed_laser_architecture.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Pulsed_laser_architecture.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>] <PDF/Pulsed_laser_architecture.pdf, id=776, page=3, 614.295pt x 794.97pt>
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 3>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page3 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 3>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page3 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 2>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page2 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [53 <./PDF/Pulsed_laser_architecture.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Pulsed_laser_architecture.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>] <PDF/Pulsed_laser_architecture.pdf, id=794, page=4, 614.295pt x 794.97pt>
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 4>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page4 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 4>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page4 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 3>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page3 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [54 <./PDF/Pulsed_laser_architecture.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Pulsed_laser_architecture.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>] <PDF/Pulsed_laser_architecture.pdf, id=812, page=5, 614.295pt x 794.97pt>
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 5>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page5 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 5>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page5 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 4>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page4 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [55 <./PDF/Pulsed_laser_architecture.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Pulsed_laser_architecture.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>] <PDF/Pulsed_laser_architecture.pdf, id=831, page=6, 614.295pt x 794.97pt>
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 6>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page6 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 6>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page6 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 5>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page5 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [56 <./PDF/Pulsed_laser_architecture.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Pulsed_laser_architecture.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>] <PDF/Pulsed_laser_architecture.pdf, id=849, page=7, 614.295pt x 794.97pt>
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 7>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page7 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 7>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page7 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+
+<use PDF/Pulsed_laser_architecture.pdf, page 6>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page6 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [57 <./PDF/Pulsed_laser_architecture.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Pulsed_laser_architecture.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>]
+File: PDF/Pulsed_laser_architecture.pdf Graphic file (type pdf)
+ <use PDF/Pulsed_laser_architecture.pdf, page 7>
+Package pdftex.def Info: PDF/Pulsed_laser_architecture.pdf, page7 used on input
+ line 94.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [58 <./PDF/Pulsed_laser_architecture.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Pulsed_laser_architecture.pdf): PDF inclus
+ion: invalid other resource which is no dict (key 'ProcSets', type <array>); ig
+nored.
+>] [59] <PDF/physics_of_sodium_lgs.pdf, id=888, 614.295pt x 794.97pt>
+File: PDF/physics_of_sodium_lgs.pdf Graphic file (type pdf)
+
+<use PDF/physics_of_sodium_lgs.pdf>
+Package pdftex.def Info: PDF/physics_of_sodium_lgs.pdf used on input line 102.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/physics_of_sodium_lgs.pdf Graphic file (type pdf)
+ <use PDF/physics_of_sodium_lgs.pdf>
+Package pdftex.def Info: PDF/physics_of_sodium_lgs.pdf used on input line 102.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<PDF/physics_of_sodium_lgs.pdf, id=891, page=1, 614.295pt x 794.97pt>
+File: PDF/physics_of_sodium_lgs.pdf Graphic file (type pdf)
+
+<use PDF/physics_of_sodium_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/physics_of_sodium_lgs.pdf, page1 used on input lin
+e 102.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/physics_of_sodium_lgs.pdf Graphic file (type pdf)
+
+<use PDF/physics_of_sodium_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/physics_of_sodium_lgs.pdf, page1 used on input lin
+e 102.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/physics_of_sodium_lgs.pdf Graphic file (type pdf)
+
+<use PDF/physics_of_sodium_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/physics_of_sodium_lgs.pdf, page1 used on input lin
+e 102.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/physics_of_sodium_lgs.pdf Graphic file (type pdf)
+
+<use PDF/physics_of_sodium_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/physics_of_sodium_lgs.pdf, page1 used on input lin
+e 102.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/physics_of_sodium_lgs.pdf Graphic file (type pdf)
+
+<use PDF/physics_of_sodium_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/physics_of_sodium_lgs.pdf, page1 used on input lin
+e 102.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [60 <./PDF/physics_of_sodium_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/physics_of_sodium_lgs.pdf): PDF inclusion:
+ invalid other resource which is no dict (key 'ProcSets', type <array>); ignore
+d.
+>] <PDF/optimization_pulsed_lgs.pdf, id=899, 614.295pt x 794.97pt>
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf used on input line 108
+.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+ <use PDF/optimization_pulsed_lgs.pdf>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf used on input line 108
+.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<PDF/optimization_pulsed_lgs.pdf, id=902, page=1, 614.295pt x 794.97pt>
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page1 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page1 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page1 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page1 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [61]
+<PDF/optimization_pulsed_lgs.pdf, id=908, page=2, 614.295pt x 794.97pt>
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 2>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page2 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 2>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page2 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page1 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [62 <./PDF/optimization_pulsed_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_pulsed_lgs.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/optimization_pulsed_lgs.pdf, id=916, page=3, 614.295pt x 794.97pt>
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 3>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page3 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 3>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page3 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 2>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page2 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [63 <./PDF/optimization_pulsed_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_pulsed_lgs.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/optimization_pulsed_lgs.pdf, id=923, page=4, 614.295pt x 794.97pt>
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 4>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page4 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 4>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page4 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 3>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page3 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [64 <./PDF/optimization_pulsed_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_pulsed_lgs.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/optimization_pulsed_lgs.pdf, id=929, page=5, 614.295pt x 794.97pt>
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 5>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page5 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 5>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page5 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 4>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page4 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [65 <./PDF/optimization_pulsed_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_pulsed_lgs.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/optimization_pulsed_lgs.pdf, id=936, page=6, 614.295pt x 794.97pt>
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 6>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page6 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 6>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page6 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 5>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page5 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [66 <./PDF/optimization_pulsed_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_pulsed_lgs.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/optimization_pulsed_lgs.pdf, id=943, page=7, 614.295pt x 794.97pt>
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 7>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page7 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 7>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page7 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 6>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page6 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [67 <./PDF/optimization_pulsed_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_pulsed_lgs.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/optimization_pulsed_lgs.pdf, id=950, page=8, 614.295pt x 794.97pt>
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 8>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page8 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 8>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page8 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 7>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page7 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [68 <./PDF/optimization_pulsed_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_pulsed_lgs.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/optimization_pulsed_lgs.pdf, id=957, page=9, 614.295pt x 794.97pt>
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 9>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page9 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 9>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page9 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_pulsed_lgs.pdf, page 8>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page8 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [69 <./PDF/optimization_pulsed_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_pulsed_lgs.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>]
+File: PDF/optimization_pulsed_lgs.pdf Graphic file (type pdf)
+ <use PDF/optimization_pulsed_lgs.pdf, page 9>
+Package pdftex.def Info: PDF/optimization_pulsed_lgs.pdf, page9 used on input l
+ine 108.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [70 <./PDF/optimization_pulsed_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_pulsed_lgs.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] [71] <PDF/optimization_of_cw_lgs.pdf, id=972, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf used on input line 115.
+
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+ <use PDF/optimization_of_cw_lgs.pdf>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf used on input line 115.
+
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+
+<PDF/optimization_of_cw_lgs.pdf, id=975, page=1, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page1 used on input li
+ne 115.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page1 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page1 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page1 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+
+<PDF/optimization_of_cw_lgs.pdf, id=976, page=2, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 2>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page2 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 2>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page2 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 1>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page1 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [72 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>] <PDF/optimization_of_cw_lgs.pdf, id=985, page=3, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 3>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page3 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 3>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page3 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 2>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page2 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [73 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>] <PDF/optimization_of_cw_lgs.pdf, id=993, page=4, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 4>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page4 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 4>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page4 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 3>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page3 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [74 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>] <PDF/optimization_of_cw_lgs.pdf, id=1000, page=5, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 5>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page5 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 5>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page5 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 4>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page4 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [75 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>] <PDF/optimization_of_cw_lgs.pdf, id=1007, page=6, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 6>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page6 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 6>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page6 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 5>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page5 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [76 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>] <PDF/optimization_of_cw_lgs.pdf, id=1014, page=7, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 7>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page7 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 7>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page7 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 6>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page6 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [77 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>] <PDF/optimization_of_cw_lgs.pdf, id=1021, page=8, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 8>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page8 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 8>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page8 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 7>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page7 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [78 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>] <PDF/optimization_of_cw_lgs.pdf, id=1028, page=9, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 9>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page9 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 9>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page9 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 8>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page8 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [79 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>]
+<PDF/optimization_of_cw_lgs.pdf, id=1036, page=10, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 10>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page10 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 10>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page10 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 9>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page9 used on input li
+ne 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [80 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>]
+<PDF/optimization_of_cw_lgs.pdf, id=1043, page=11, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 11>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page11 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 11>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page11 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 10>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page10 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [81 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>]
+<PDF/optimization_of_cw_lgs.pdf, id=1050, page=12, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 12>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page12 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 12>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page12 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 11>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page11 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [82 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>]
+<PDF/optimization_of_cw_lgs.pdf, id=1057, page=13, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 13>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page13 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 13>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page13 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 12>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page12 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [83 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>]
+<PDF/optimization_of_cw_lgs.pdf, id=1064, page=14, 597.23125pt x 845.1575pt>
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 14>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page14 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 14>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page14 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+
+<use PDF/optimization_of_cw_lgs.pdf, page 13>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page13 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [84 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>]
+File: PDF/optimization_of_cw_lgs.pdf Graphic file (type pdf)
+ <use PDF/optimization_of_cw_lgs.pdf, page 14>
+Package pdftex.def Info: PDF/optimization_of_cw_lgs.pdf, page14 used on input l
+ine 115.
+(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
+ [85 <./PDF/optimization_of_cw_lgs.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/optimization_of_cw_lgs.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>] <PDF/DyeLaserAJP.pdf, id=1078, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf used on input line 121.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf used on input line 121.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<PDF/DyeLaserAJP.pdf, id=1081, page=1, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 1>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page1 used on input line 121.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 1>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page1 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 1>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page1 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 1>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page1 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [86]
+<PDF/DyeLaserAJP.pdf, id=1086, page=2, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 2>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page2 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 2>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page2 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 1>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page1 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [87 <./PDF/DyeLaserAJP.pdf>]
+<PDF/DyeLaserAJP.pdf, id=1133, page=3, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 3>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page3 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 3>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page3 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 2>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page2 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [88 <./PDF/DyeLaserAJP.pdf>]
+<PDF/DyeLaserAJP.pdf, id=1167, page=4, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 4>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page4 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 4>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page4 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 3>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page3 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [89 <./PDF/DyeLaserAJP.pdf>]
+<PDF/DyeLaserAJP.pdf, id=1185, page=5, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 5>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page5 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 5>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page5 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 4>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page4 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [90 <./PDF/DyeLaserAJP.pdf>]
+<PDF/DyeLaserAJP.pdf, id=1201, page=6, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 6>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page6 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 6>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page6 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 5>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page5 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [91 <./PDF/DyeLaserAJP.pdf>]
+<PDF/DyeLaserAJP.pdf, id=1234, page=7, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 7>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page7 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 7>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page7 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 6>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page6 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [92 <./PDF/DyeLaserAJP.pdf>]
+<PDF/DyeLaserAJP.pdf, id=1241, page=8, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 8>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page8 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 8>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page8 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 7>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page7 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [93 <./PDF/DyeLaserAJP.pdf>]
+<PDF/DyeLaserAJP.pdf, id=1248, page=9, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 9>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page9 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 9>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page9 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 8>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page8 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [94 <./PDF/DyeLaserAJP.pdf>]
+<PDF/DyeLaserAJP.pdf, id=1253, page=10, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 10>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page10 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 10>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page10 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 9>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page9 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [95 <./PDF/DyeLaserAJP.pdf>]
+<PDF/DyeLaserAJP.pdf, id=1262, page=11, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 11>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page11 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 11>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page11 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 10>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page10 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [96 <./PDF/DyeLaserAJP.pdf>]
+<PDF/DyeLaserAJP.pdf, id=1272, page=12, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 12>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page12 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 12>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page12 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 11>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page11 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [97 <./PDF/DyeLaserAJP.pdf>]
+<PDF/DyeLaserAJP.pdf, id=1280, page=13, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 13>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page13 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 13>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page13 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 12>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page12 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [98 <./PDF/DyeLaserAJP.pdf>]
+<PDF/DyeLaserAJP.pdf, id=1285, page=14, 614.295pt x 794.97pt>
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 14>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page14 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+ <use PDF/DyeLaserAJP.pdf, page 14>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page14 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 13>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page13 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [99 <./PDF/DyeLaserAJP.pdf>]
+File: PDF/DyeLaserAJP.pdf Graphic file (type pdf)
+
+<use PDF/DyeLaserAJP.pdf, page 14>
+Package pdftex.def Info: PDF/DyeLaserAJP.pdf, page14 used on input line 121.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [100 <./PDF/DyeLaserAJP.pdf>] [101]
+<PDF/Keck_observatory_system.pdf, id=1308, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf used on input line 127
+.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+ <use PDF/Keck_observatory_system.pdf>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf used on input line 127
+.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<PDF/Keck_observatory_system.pdf, id=1311, page=1, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 1>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page1 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 1>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page1 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 1>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page1 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 1>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page1 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+
+<PDF/Keck_observatory_system.pdf, id=1312, page=2, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 2>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page2 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 2>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page2 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 1>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page1 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [102 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1349, page=3, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 3>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page3 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 3>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page3 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 2>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page2 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [103 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1366, page=4, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 4>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page4 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 4>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page4 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 3>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page3 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [104 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1376, page=5, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 5>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page5 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 5>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page5 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 4>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page4 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [105 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1388, page=6, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 6>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page6 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 6>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page6 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 5>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page5 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [106 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1393, page=7, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 7>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page7 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 7>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page7 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 6>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page6 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [107 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1399, page=8, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 8>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page8 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 8>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page8 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 7>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page7 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [108 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1410, page=9, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 9>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page9 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 9>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page9 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 8>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page8 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [109 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1416, page=10, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 10>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page10 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 10>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page10 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 9>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page9 used on input l
+ine 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [110 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1421, page=11, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 11>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page11 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 11>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page11 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 10>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page10 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [111 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1427, page=12, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 12>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page12 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 12>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page12 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 11>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page11 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [112 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1435, page=13, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 13>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page13 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 13>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page13 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 12>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page12 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [113 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1440, page=14, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 14>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page14 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 14>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page14 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 13>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page13 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [114 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1446, page=15, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 15>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page15 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 15>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page15 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 14>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page14 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [115 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1454, page=16, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 16>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page16 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 16>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page16 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 15>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page15 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [116 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1460, page=17, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 17>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page17 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 17>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page17 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 16>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page16 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [117 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1466, page=18, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 18>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page18 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 18>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page18 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 17>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page17 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [118 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1471, page=19, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 19>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page19 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 19>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page19 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 18>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page18 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [119 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1481, page=20, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 20>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page20 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 20>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page20 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 19>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page19 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [120 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1486, page=21, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 21>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page21 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 21>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page21 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 20>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page20 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [121 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1492, page=22, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 22>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page22 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 22>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page22 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 21>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page21 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [122 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1497, page=23, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 23>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page23 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 23>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page23 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 22>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page22 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [123 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1502, page=24, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 24>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page24 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 24>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page24 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 23>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page23 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [124 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1507, page=25, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 25>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page25 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 25>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page25 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 24>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page24 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [125 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1518, page=26, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 26>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page26 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 26>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page26 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 25>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page25 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [126 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1524, page=27, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 27>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page27 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 27>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page27 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 26>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page26 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [127 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] <PDF/Keck_observatory_system.pdf, id=1530, page=28, 614.295pt x 794.97pt>
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 28>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page28 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 28>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page28 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+
+<use PDF/Keck_observatory_system.pdf, page 27>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page27 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [128 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>]
+File: PDF/Keck_observatory_system.pdf Graphic file (type pdf)
+ <use PDF/Keck_observatory_system.pdf, page 28>
+Package pdftex.def Info: PDF/Keck_observatory_system.pdf, page28 used on input 
+line 127.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [129 <./PDF/Keck_observatory_system.pdf
+
+pdfTeX warning: pdflatex (file ./PDF/Keck_observatory_system.pdf): PDF inclusio
+n: invalid other resource which is no dict (key 'ProcSets', type <array>); igno
+red.
+>] [130]
+<PDF/continuously_tunable_ps_dyelaser.pdf, id=1543, 529.98pt x 754.82pt>
+File: PDF/continuously_tunable_ps_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/continuously_tunable_ps_dyelaser.pdf>
+Package pdftex.def Info: PDF/continuously_tunable_ps_dyelaser.pdf used on input
+ line 133.
+(pdftex.def)             Requested size: 529.97868pt x 754.81818pt.
+File: PDF/continuously_tunable_ps_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/continuously_tunable_ps_dyelaser.pdf>
+Package pdftex.def Info: PDF/continuously_tunable_ps_dyelaser.pdf used on input
+ line 133.
+(pdftex.def)             Requested size: 529.97868pt x 754.81818pt.
+
+<PDF/continuously_tunable_ps_dyelaser.pdf, id=1546, page=1, 529.98pt x 754.82pt
+>
+File: PDF/continuously_tunable_ps_dyelaser.pdf Graphic file (type pdf)
+ <use PDF/continuously_tunable_ps_dyelaser.pdf, page 1>
+Package pdftex.def Info: PDF/continuously_tunable_ps_dyelaser.pdf, page1 used o
+n input line 133.
+(pdftex.def)             Requested size: 529.97868pt x 754.81818pt.
+File: PDF/continuously_tunable_ps_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/continuously_tunable_ps_dyelaser.pdf, page 1>
+Package pdftex.def Info: PDF/continuously_tunable_ps_dyelaser.pdf, page1 used o
+n input line 133.
+(pdftex.def)             Requested size: 558.7759pt x 795.83238pt.
+File: PDF/continuously_tunable_ps_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/continuously_tunable_ps_dyelaser.pdf, page 1>
+Package pdftex.def Info: PDF/continuously_tunable_ps_dyelaser.pdf, page1 used o
+n input line 133.
+(pdftex.def)             Requested size: 558.7759pt x 795.83238pt.
+File: PDF/continuously_tunable_ps_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/continuously_tunable_ps_dyelaser.pdf, page 1>
+Package pdftex.def Info: PDF/continuously_tunable_ps_dyelaser.pdf, page1 used o
+n input line 133.
+(pdftex.def)             Requested size: 558.7759pt x 795.83238pt.
+
+<PDF/continuously_tunable_ps_dyelaser.pdf, id=1547, page=2, 529.98pt x 754.82pt
+>
+File: PDF/continuously_tunable_ps_dyelaser.pdf Graphic file (type pdf)
+ <use PDF/continuously_tunable_ps_dyelaser.pdf, page 2>
+Package pdftex.def Info: PDF/continuously_tunable_ps_dyelaser.pdf, page2 used o
+n input line 133.
+(pdftex.def)             Requested size: 558.7759pt x 795.83238pt.
+File: PDF/continuously_tunable_ps_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/continuously_tunable_ps_dyelaser.pdf, page 2>
+Package pdftex.def Info: PDF/continuously_tunable_ps_dyelaser.pdf, page2 used o
+n input line 133.
+(pdftex.def)             Requested size: 558.7759pt x 795.83238pt.
+File: PDF/continuously_tunable_ps_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/continuously_tunable_ps_dyelaser.pdf, page 1>
+Package pdftex.def Info: PDF/continuously_tunable_ps_dyelaser.pdf, page1 used o
+n input line 133.
+(pdftex.def)             Requested size: 558.7759pt x 795.83238pt.
+ [131 <./PDF/continuously_tunable_ps_dyelaser.pdf>]
+File: PDF/continuously_tunable_ps_dyelaser.pdf Graphic file (type pdf)
+
+<use PDF/continuously_tunable_ps_dyelaser.pdf, page 2>
+Package pdftex.def Info: PDF/continuously_tunable_ps_dyelaser.pdf, page2 used o
+n input line 133.
+(pdftex.def)             Requested size: 558.7759pt x 795.83238pt.
+ [132 <./PDF/continuously_tunable_ps_dyelaser.pdf>]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+ [133]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
+ [134]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
+ (./senior_proposal_notes.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
+Package rerunfilecheck Info: File `senior_proposal_notes.out' has not changed.
+(rerunfilecheck)             Checksum: 226A803CDDBF53FF4687A2B6BBFFF2C2;2386.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
+ ) 
+Here is how much of TeX's memory you used:
+ 7230 strings out of 493089
+ 116931 string characters out of 6134842
+ 200074 words of memory out of 5000000
+ 10479 multiletter control sequences out of 15000+600000
+ 8502 words of font info for 30 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,18n,46p,1171b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
+Output written on senior_proposal_notes.pdf (134 pages, 26709380 bytes).
+PDF statistics:
+ 1640 PDF objects out of 1728 (max. 8388607)
+ 1000 compressed objects within 10 object streams
+ 165 named destinations out of 1000 (max. 500000)
+ 993 words of extra memory for PDF output out of 10000 (max. 10000000)
+

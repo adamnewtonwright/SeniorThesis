@@ -1,0 +1,32 @@
+For references, use the following:
+\usepackage{url}
+
+And when you want to include a url:
+\url{www.hi.com}
+
+In order to get Uppercase in references, you have to use curly brackets:
+{M}odern {P}hysics
+
+In order to reference a paper, use the following in bibtex:
+\label{}
+\cite{}
+
+For figures and graphs, use:
+\ref{}
+
+Any number smaller than eleven needs to be spelled out. Start a sentence by spelling out the number. Always add a leading zero (0.1).
+
+Always start a chapter with some sort of introduction before you start a section.
+	In this introduction, outline the chapter and maybe motivate it a little.
+
+Name your thesis WrightThesis.tex
+
+In the .sty file, make sure to add "Dr. Michaela Kleinert"
+
+Don't use "off of"
+
+In the acknowledgements section, make sure to add all funding agencies;
+	you can also put in personal acknowledgements.
+
+Don't worry about the abstract during the first semester.
+	There are usually two types of abstracts: a technical and a more casual.
