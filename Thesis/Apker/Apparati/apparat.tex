@@ -1,0 +1,374 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Apparatus Section of Senior Thesis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Laser Systems
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\chapter{Laser System}
+
+A laser capable of testing magnetic resonant pulsing (MRP) needs to fulfill various criteria: wavelength tunability around \SI{780}{\nano \meter}, repetition rate of \SI{200}{ kHz} to \SI{2}{ MHz}, and a low duty cycle. Wavelength tunability is necessary in order to match the wavelength of the laser to the precise absorption wavelength of rubidium, \SI{780.24}{\nano \meter}, so that laser light will be absorbed. The repetition rate of the laser is necessary so that the light only interacts with the atoms at one point in their precession cycle. This repetition rate is determined by the atom's Larmor frequency, which is in turn determined by the strength of the magnetic field. Lastly, a short duty cycle, which is the pulse width divided by the inverse of the repetition rate (i.e. the ratio of time that the pulse is ``on'' during a given cycle) will be advantageous since light will only interact with the atom for a short amount of time, yielding less change in the atom's total angular momentum over the course of the interaction.
+
+We attempted to build two lasers fulfilling these requirements: a pulsed dye laser and a diode laser chopped with an acousto-optic modulator (AOM). The dye laser ultimately proved too difficult to construct in a limited amount of time and was abandoned. However, it is described in Appendix C. The diode laser was successfully built and fulfilled all criteria.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Diode Laser
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Diode Lasers and Acousto-Optic Modulators}
+
+%In addition to investigating the use of dye lasers as an MRP laser system, we also investigated the use of a diode laser, pulsed by chopping the beam with an acousto-optic modulator (AOM). This system was able to produce the required criteria for an MRP laser.
+
+\section{Laser Diodes}
+A laser diode is a semiconductor device that makes use of a p-n junction to produce stimulated emission. This p-n junction consists of two semiconductors placed side by side, one p-doped and the other n-doped. P-doping inserts atoms that contain one or two electrons less than the atoms in the semiconductor. N-doping places atoms with one or two more electrons than the atoms in the semiconductor. This makes the p-doped semiconductor ``positive'' with ``holes'' for electrons in the ``negative'' n-doped semiconductor to transition into. If a potential difference is applied across this junction, electrons from the n-doped semiconductor are pushed towards the p-doped semiconductor. This situation then allows for electrons to decay into the ``holes'' provided by the p-donors, emitting a photon upon decay. The semiconductor is typically highly polished and thus acts as its own cavity.
+
+
+The wavelength of light emitted from laser diodes is dependent upon the material of the semiconductor. Many different diode lasers are available with various wavelengths, including $\SI{780}{\nano\meter}$ for the rubidium absorption. Typically, laser diodes have a linewidth of a few nanometers, but a specific wavelength of light can be selected from this linewidth with a method similar to that of the dye laser. Using a diffraction grating, light from the diode laser can be spread out and reflected back into the laser diode. The particular wavelength reflected back into the diode will stimulate the emission of photons of a similar wavelength, thereby narrowing the overall linewidth of the laser.
+
+Diode lasers are, however, continuous wave lasers. In order to make a \textit{pulsed} diode laser, we use an acousto-optic modulator (AOM), a device that makes use of the propagation of sound waves through a crystal to diffract light. A schematic of an AOM is shown in Fig. \ref{fig:AOM1}. A crystal is attached to a piezo-electric transducer (PZT) that can be driven by an electric signal. When a signal is supplied to the PZT, oscillations are produced that propagate through the crystal in a periodic manner. These  compressions in the crystal act similar to sound waves travelling through a solid. These waves cause a periodic change in the index of refraction, causing incident light to diffract,\footnote{This process can also be described by particles instead of waves. The sound waves can be quantized and thought of as discrete particles, known as phonons. As light enters the crystal perpendicular to the propagation direction of the phonons, the photons will collide with the phonons, and by conservation of momentum, be deflected. This creates a ``diffracted'' beam.} similar to a traditional diffraction grating.
+
+%\begin{figure}[h]
+%		\centering
+%		\includegraphics[width = .8\textwidth]{Images/AOM1.png}
+%		\caption{Schematic of an acousto-optic modulator. The dashed red line is the laser beam coming from left to right that is diffracted by the AOM into a first and second order beam \protect\cite{aomfig}.}
+%		\label{fig:AOM1}
+%\end{figure}
+
+\begin{figure}[h]
+		\centering
+		\includestandalone[width = .8\textwidth]{Images/tikz/aom}
+		\caption{Schematic of an acousto-optic modulator. The beam on the left is the laser beam coming from left to right that is diffracted by the AOM into a first and second order beam \protect\cite{aomfig}.}
+		\label{fig:AOM1}
+\end{figure}
+
+If we take the first order beam to be our laser beam, we can create a pulsed laser simply by turning on and off the PZT. When the PZT is turned on, it will diffract the incoming beam, creating a pulse of light, and when it is turned off, the incoming beam will no longer be diffracted and the pulse will be cut off. Thus, the length of time the PZT is turned on for will determine the pulse width of our laser, and the frequency at which we turn the PZT on and off will determine the repetition rate of the laser.
+
+
+\section{Characterization of the Pulsed Diode Laser System}
+
+The diode laser was constructed using a continuous wave, \SI{780}{\nano \meter} laser diode. The laser is kept on resonance with the rubidium D$_2$ line using a continuously scanning diffraction grating. The diffraction grating separates out light into its various frequencies and reflects one of these frequencies of light back into the laser diode. With a piezo-electric transducer (PZT), the angle of the diffraction grating is continuously varied in an oscillating manner, allowing the laser to scan over a small range of wavelengths. This allows wavelengths around the resonant frequency to be reflected back into the diode, which stimulates the emission of more photons of this wavelength. By sending part of this laser light through a rubidium cell and measuring its absorption, the PZT can be tuned such that maximum light is absorbed in the rubidium cell. The PZT is continuously scanning during operation, allowing for precise tuning of the wavelength to the rubidium D$_2$ line.
+
+As mentioned earlier, the diode laser was pulsed, or ``chopped,'' with an AOM. The AOM was driven with a voltage from a function generator (Agilent 33120A) capable of producing step function voltages with repetition rates up to \SI{15}{\mega \hertz} and a duty cycle greater than or equal to 20\%. The function generator and AOM pulsed the diode laser beam as expected. With a 20\% duty cycle and a repetition rate of \SI{250}{ kHz}, the pulses appeared very square (as measured on an oscilloscope with a photodiode, shown in Fig. \ref{fig:diodepulse1}). The spikes and dips at the beginning and end of each pulse is likely just an artifact of imprecise electronic behavior of the photodiode at such short timescales. The diode laser light is originally linearly polarized. This linearly polarized light is filtered into horizontally polarized light with a half-waveplate and a polarizing beam splitting cube. This allowed adjustment of the intensity by rotation of the waveplate. Finally, the light is converted into $\sigma ^+$ circularly polarized light with a quarter-waveplate in order to optically pump the rubidium.
+
+The laser could thus be operated in pulsed mode by applying a periodic voltage to the AOM or could be operated in continuous mode by applying a constant voltage to AOM. The laser had an maximum average power of \SI{2}{\milli W} when operating in pulsed mode with repetition rates in the hundreds of kilohertz, and an maximum average power of \SI{5}{\milli W} when operating in continuous mode. The laser beam had a radius on the order of \SI{2}{\milli \meter}, giving an intensity of around \SI{100}{W \per \meter \squared} in pulsed mode and \SI{400}{W \per \meter \squared} in continuous mode.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% diode pulses
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[ht!]
+		\centering
+		\includegraphics[width = .8\textwidth]{Images/diodepulse.pdf}
+		\caption{Shown are the laser pulses from the diode laser pulsed with an AOM and measured as a photodiode voltage. The pulses have a repetition rate of \SI{250}{ kHz} and a duty cycle of 20\%.}
+		\label{fig:diodepulse1}
+\end{figure}
+
+%\begin{figure}[h]
+%		\centering
+%		\includegraphics[scale=0.5]{Images/diodepulse2.png}
+%		\caption{Figure of a zoomed in image of the diode pulse.}
+%		\label{fig:diodepulse2}
+%\end{figure}
+
+An important aspect of the diode-AOM system is the rise and fall time. These are the times that each laser pulse takes to reach its maximum and minimum amplitude, respectively. Essentially, it is how quickly the AOM can diffract the laser beam. Ideally, both of these times would be as short as possible, creating a highly square wave, similar to a step function. However, due to the physical width of the laser beam, there will be some time over which only part of the beam is diffracted (as the ``sound waves'' travel through the crystal and interact with the laser beam). Thus, having a tightly focused narrow beam will decrease both the rise and fall times. A converging lens was placed before the AOM and was adjusted to minimize the rise and fall times of the pulse. The pulses had a rise time on the order of \SI{10}{\nano \second}. A rise time much shorter than the pulse width is desired since this ensures maximum power is available at the beginning of the pulse. Since this rise time is orders of magnitude shorter than the pulse width, the pulses will be very square in our time domain.
+
+In conclusion, we constructed a pulsed diode laser that satisfied the necessary criteria for an MRP laser. The diode laser was on resonance with the rubidium D$_2$ line, had a variable repetition rate controlled with a function generator, and had a low duty cycle of 20\%. Furthermore, its polarization could be manipulated with half- and quarter-waveplates and polarizing beam splitting cubes.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Magnetic Field
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Magnetic Field Housing}
+
+
+In order to model the magnetic field environment that laser guide star systems encounter, a configurable magnetic field needed to be constructed. This magnetic field needed to be variable in its strength, be spatially homogeneous in strength, and be able to be rotated in order to create an angle between field direction and the direction of propagation of the laser beam. This chapter describes and characterizes this magnetic field configuration.
+
+A homogeneous magnetic field of strength 0-\SI{10}{ Gauss} was created using a Helmholtz coil configuration. A schematic of the Helmholtz coils is shown in Fig. \ref{fig:helmholtzcoils} and a photograph of the setup is shown in Fig. \ref{fig:actualcoils}. The coils have an inner radius of \SI{10}{\centi \meter}, an outer radius of \SI{12}{\centi \meter}, a width of \SI{1}{\centi \meter}, and are separated by a distance of \SI{10}{\centi \meter}. Each coil has 155 turns, with approximately 10 turns along the axial direction and 15 layers of coil in the radial direction. The coils were connected with a metal rod attached to the bottom of each coil. The center of the rod contained a hole which screwed into the optical table, allowing for rotation of the coils (and thus of the magnetic field) about an axis perpendicular to the laser beam. This allowed for direct manipulation of the angle of the magnetic field with respect to the laser beam. Current was supplied with a standard DC power supply through the coils. The wiring of the coils was 20 AWG gauge, which is limited to a current of \SI{1.5}{ A}.
+
+\begin{figure}[htpb]
+	\centering
+	\includestandalone{Images/tikz/magfield}
+	\caption{Schematic of the Helmholtz coil configuration used for the main magnetic field in this experiment.}
+	\label{fig:helmholtzcoils}
+\end{figure}
+
+
+
+\begin{figure}[htpb]
+	\centering
+	\begin{tikzpicture}
+	\node at (0,0) {\includegraphics[width=0.8\textwidth]{Images/actualcoils.png}};
+	\node[text = white] at (-4,-3.5) {\large Compensation};
+	\node[text = white] at (-4,-4) {\large Coils};
+
+	\node[text = white] at (0,-2.7) {\large Main};
+	\node[text = white] at (0,-3.2) {\large Coils};
+
+	\draw[red, line width = 1.6pt] (-3.5,-.5) -- (-1.5,-.5);
+	\draw[red,->,>=stealth, line width = 1.6pt] (1.65,-.5) -- (3.75,-.5);
+	\node[text = white] at (2.5,-1) {\large Laser};
+	\node[text = white] at (2.5,-1.5) {\large Beam};
+
+	\node[text = white] at (-1.5,2) {\large Photodiode};
+	\end{tikzpicture}
+	\caption{Main coils (inside, black) shown along with the compensation coils (outside, blue).}
+	\label{fig:actualcoils}
+\end{figure}
+
+The expected magnetic field strength along the axial direction and along the radial direction were calculated using computer simulations. These data are shown in Fig. \ref{fig:axialtheoretical}. For a current of \SI{1}{ A}, the expected magnetic field was nearly \SI{13}{ G}, which is more than sufficient for our purposes. Furthermore, the calculation showed a homogeneity of \SI{\pm 0.1}{ Gauss} in the axial direction and of \SI{\pm 0.2}{ Gauss} in the radial direction. These two calculations confirmed that this Helmholtz configuration would supply the necessary magnetic field.
+
+\begin{figure}[htpb]
+	\centering
+	\begin{minipage}{.49\textwidth}
+	\centering
+	\begin{tikzpicture}
+		\node at (0,0) {\includegraphics[width=0.9\textwidth]{../../Helmholtz/axialtheoretical.pdf}};
+		\draw[fill = white,white] (-1,2) rectangle (1,2.5);
+		\node[rotate = 90] at (-3.5,0) {\scriptsize Magnetic Field (Gauss)}; 
+		\node[] at (0,-2.5) {\scriptsize Axial Distance from Center (m)}; 
+	\end{tikzpicture}
+	\end{minipage}
+	\begin{minipage}{.49\textwidth}
+	\centering
+	\vspace{.5cm}
+	\begin{tikzpicture}
+		\node at (0,0) {\includegraphics[width=0.9\textwidth]{../../Helmholtz/radialtheoretical.pdf}};
+		\node[rotate = 90] at (-3.5,0) {\scriptsize Magnetic Field (Gauss)}; 
+		\node[] at (0,-2.5) {\scriptsize Radial Distance from Center (m)}; 
+	\end{tikzpicture}
+	\end{minipage}
+	\caption{Numerical results for the field strength along the axial and radial direction for our Helmholtz configuration (blue) and a Helmholtz configuration with a longer distance between coils than radius of coils (yellow). The axial and radial dimensions of the rubidium cell are shown in red. Simulation by Dr. Michaela Kleinert.}
+	\label{fig:axialtheoretical}
+\end{figure}
+
+
+The support structure was 3D printed in Dr. Daniel Borrero's lab and the wiring was coiled by hand. The strength and homogeneity of the magnetic field were measured with a Gauss meter. The configuration performed as expected, producing a homogeneous magnetic field in both the radial and axial direction. In the axial direction in between the coils, the magnetic field stayed within \SI{\pm 0.25}{ G} for a current of \SI{0.5}{ A} and within \SI{\pm 0.5}{ G} for a current of \SI{1.0}{ A}. A graph of these data is shown in Fig. \ref{fig:FieldAxial} with vertical lines showing the boundary of the coils. In the radial direction for both \SI{0.5}{ A} and \SI{1.0}{ A}, the magnetic field stayed with \SI{\pm 0.25}{ G} for a radius less than \SI{7}{\centi \meter}. Beyond this this radius, the magnetic field decreased significantly. A graph of the radial magnetic field is shown in Fig. \ref{fig:FieldAxial}, with vertical lines showing the boundary of the coils. The rubidium cell, being \SI{8}{\centi \meter} long and having a diameter of \SI{1}{\centi \meter}, is well within the range of homogeneity.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Axial Magnetic Field
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h]
+		\centering
+		\begin{minipage}{.49\textwidth}
+			\includegraphics[width = .9\textwidth]{Images/FieldAxial.pdf}
+		\end{minipage}
+		\begin{minipage}{.49\textwidth}
+			\includegraphics[width = .9\textwidth]{Images/FieldRadial.pdf}
+		\end{minipage}
+		\caption{Graph of the magnetic field along the axial and radial direction for currents of \SI{1.0}{A} and \SI{0.5}{A}.}
+		\label{fig:FieldAxial}
+\end{figure}
+
+
+The strength of the magnetic field was measured at the center of the coils as a function of the current through the coils. This allowed a direct calculation of the magnetic field, knowing only the current being supplied to the coils. These data are shown in Fig. \ref{fig:FieldvCurrent} along with a line of best fit. As expected, the relationship between magnetic field strength and current is linear, given by
+
+\begin{equation}
+	B = 13.23 I-0.28,
+	\label{eq:fieldvcurrent}
+\end{equation}
+%
+where $B$ is the magnetic field in Gauss and $I$ is the current in amperes.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Field versus current
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[h]
+		\centering
+		\includegraphics[width = .8\textwidth]{Images/FieldvCurrent.pdf}
+		\caption{Graph of the strength of the magnetic field in the center of the Helmholtz coils as a function of current.}
+		\label{fig:FieldvCurrent}
+\end{figure}
+
+In addition to the coils described above, which we will call the main coils, a second pair of Helmholtz coils was used to compensate for the geomagnetic field and other stray magnetic fields in the lab. These coils, which we will call the compensation coils, were placed outside of the main coils and oriented in the direction of the geomagnetic field. The compensation coils are shown in blue steel housing and copper wiring in Fig. \ref{fig:actualcoils}. They created a homogeneous magnetic field equal and opposite to the geomagnetic field so that the only magnetic field in the experiment was from the main coils.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fluorescence Measurements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Fluorescence Measurements}
+With a laser on resonance with rubidium and capable of being operated in pulsed or continuous wave mode, a magnetic field of variable strength and orientation, and a rubidium cell, the fluorescence of rubidium was measured as a function of the magnetic field strength, magnetic field orientation, repetition rate, and with circularly polarized light compared to linearly polarized light. This chapter describes the final experimental setup, methods for measurements, and the results of these experiments.
+
+\section{Experimental Setup}
+The final experimental apparatus is shown as a schematic in Fig. \ref{fig:expsetup} and as a photograph in Fig. \ref{fig:expsetupactual}. It consisted of the diode laser on resonance with the rubidium D$_2$ line and capable of being operated in pulsed or continuous wave mode, the main coils variable in strength and angle with respect to the laser beam, compensation coils to cancel out any stray magnetic fields, the rubidium cell, and two photodiodes to measure fluorescence from the top of the cell (photodiode 1) and to measure backscattered light (photodiode 2). 
+
+\begin{figure}[ht]
+	\centering
+	\includestandalone[width = .9\textwidth]{Images/tikz/fluorescence}
+	\caption{Schematic of the experimental setup to measure fluorescence of rubidium atoms including the Helmholtz coils, rubidium cell, and photodiode.}
+	\label{fig:expsetup}
+\end{figure}
+
+\begin{figure}[htpb]
+	\centering
+	\begin{tikzpicture}
+		\node at (0,0) {\includegraphics[width=0.8\textwidth]{Images/setup.png}};
+		\node[text = white] at (1.5,-3) {\large Compensation};
+		\node[text = white] at (.5,-3.5) {\large Coils};
+		\node[text = white] at (2,-1.5) {\large Main};
+		\node[text = white] at (2,-2.0) {\large Coils};
+		\node[text = white] at (0,2) {\large Photodiode};
+		\draw[red,->,stealth, line width = 1.6pt] (-2.5,-2.2) -- (-.5,-1.1);
+		\node[text = white] at (-3,-1.5) {\large Laser};
+	\end{tikzpicture}
+	\caption{Experimental setup shown with compensation coils, main coils, absorption cell, and laser beam.}
+	\label{fig:expsetupactual}
+\end{figure}
+
+The photodiodes were connected to an oscilloscope which was triggered at the scanning frequency of the diode laser. Fluorescence was measured by recording the potential difference from the oscilloscope and dividing it by the average power of the laser. This division is important as it allows us to compare the fluorescence between pulsed and continuous wave laser beams. Without it, the fluorescence from the continuous wave beam would consistently be greater since this beam has a higher average power.
+
+%In order to characterize the fluorescence of rubidium from the constructed laser, a measurement of the saturation intensity of rubidium was taken. This is a measurement of the fluorescence of the atoms as a function of the average power of the laser, and indicates the power at which the atoms are being excited as quickly as possible. Above this intensity, no extra laser power will result in more atoms absorbing and emitting more light. This measurement was made with no magnetic field and the laser operating in continuous wave mode. These data are shown in Fig. \ref{fig:satint}. The error bars come from uncertainty in the fluorescence measurements recorded from the oscilloscope. A best best fit function,
+%
+%\begin{equation}
+%	\text{f} = \frac{1}{1+e^{-1.6 \left( p - 1.1 \right) }},
+%	\label{eq:satint}
+%\end{equation}
+%%
+%where f is the fluorescence of the atoms and $p$ is the laser power in milliwatts.
+%
+%\begin{figure}[htpb]
+%	\centering
+%	\includegraphics[width=0.8\textwidth]{../../Diode/SatCont.pdf}
+%	\caption{Saturation intensity for rubidium pumped with the diode laser operating in continuous wave. A line of best fit is also plotted, given by Eq. \ref{eq:satint}. The error bars come from uncertainty in the fluorescence measurements.}
+%	\label{fig:satint}
+%\end{figure}
+
+
+
+\section{Fluorescence versus Magnetic Field Strength and Repetition Rate}
+
+The first measurement taken was of the fluorescence with respect to the magnetic field strength. With a magnetic field perpendicular to the laser beam and circularly polarized light, we performed this measurement to search for an increase in fluorescence when the repetition rate of the laser matched the Larmor frequency of the atoms. An arbitrary current was chosen (0.12 A) and the magnetic field was calculated using Eq. \ref{eq:fieldvcurrent} (1.3 G). The Larmor frequency of rubidium in this magnetic field was then calculated using Eq. \ref{zeemanf} (610 kHz). The repetition rate of the diode laser was set to this Larmor frequency using the function generator and the current was varied around the 0.12 A, thus changing the strength of the magnetic field. The expected result was an increase in the fluorescence around 0.12 A and this result was found. These data are shown in Fig. \ref{fig:flvc}, with a peak at \SI{0.12}{ A}. The error in the measurements comes from uncertainty in the potential difference read from the oscilloscope (which can be quite large, due to jitter in the laser and electronic noise) and from error in measuring the power of the laser beam. The error was calculated using error porpagation from the uncertainty in each measurement.
+
+
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.8\textwidth]{../../MRPData/EfficiencyCurr.pdf}
+	\caption{Fluorescence versus current with magnetic field perpendicular to laser beam and the repetition rate set at \SI{700}{ kHz}. The expected increase at 0.12 A is seen. The error in the measurements comes from uncertainty in the potential difference read from the oscilloscope (which can be quite large, due to jitter in the laser and electronic noise) and from error in measuring the power of the laser beam. The error was calculated using error propagation from the uncertainty in each measurement.}
+	\label{fig:flvc}
+\end{figure}
+
+The second measurement taken was of fluorescence versus repetition rate with a constant magnetic field perpendicular to the laser beam. With the current set to 0.12 A (a magnetic field of \SI{1.3}{ G}), the expected peak in fluorescence would occur at \SI{700}{ kHz}. The fluorescence indeed peaked at \SI{700}{ kHz}, which can be seen in Fig. \ref{fig:flvrep}. The error comes from uncertainty in the fluorescence measurement as well as uncertainty in the average laser power measurement. Since, for magnetic fields perpendicular to the laser beam, the total angular momentum vector precesses in time about the axis of the field, optical pumping is not as efficient for this orientation as it is when the magnetic field is parallel to the beam. However, this confirmed that MRP can restore the benefits of optical pumping by only ``talking'' to the atoms at one point in their angular momentum's precession. We report a 14\% increase in fluorescence as the repetition rate of the laser is tuned to the Larmor frequency, with a full width at half-maximum of approximately \SI{50}{ kHz}.
+
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{../../MRPData/MAR24/FLvRep.pdf}
+	\caption{Fluorescence of rubidium in a magnetic field of approximately 1.3 G perpendicular to laser beam as a function of repetition rate. The peak at \SI{700}{ kHz} shows the increase in fluorescence at the Larmor frequency of the atoms. The error comes from uncertainty in the fluorescence measurement as well as uncertainty in the average laser power measurement.}
+	\label{fig:flvrep}
+\end{figure}
+
+
+\section{Fluorescence versus Angle between Laser Beam and Magnetic Field Direction}
+We next took measurements of the fluorescence versus the angle between the magnetic field and the laser beam. Measurements were taken with the laser operating in pulsed and continuous wave mode, as well as with linearly and circularly polarized light. The magnetic field was tuned to the repetition rate such that the system was in MRP and there was a maximum in fluorescence. Fluorescence measurements were then recorded at various angles of the magnetic field with respect to the laser beam. A schematic of this is shown in Fig. \ref{fig:flvanglesch}. The results according to Kane et al. \cite{Kane2014} are as follows:
+
+\begin{figure}[htpb]
+	\centering
+	\includestandalone[width=0.8\textwidth]{Images/tikz/FlvsAngle}
+	\caption{Schematic of the rotation of the magnetic field with respect to laser beam.}
+	\label{fig:flvanglesch}
+\end{figure}
+
+
+\begin{itemize}
+	\item Circularly polarized light operating in pulsed and continuous mode give roughly equal fluorescence at $0^{\circ}$.
+	\item As the angle between the magnetic field and laser beam increases, the fluorescence from circularly polarized, pulsed light stays constant while circularly polarized, continuous wave light decreases.
+	\item The fluorescence from linearly polarized, continuous wave and linearly polarized, pulsed light should be lower than circularly polarized light, but should stay constant over all angles.
+\end{itemize}
+
+The data obtained from our measurements are shown in Fig. \ref{fig:flvangle}. To summarize, our data show the following:
+\begin{itemize}
+	\item Fluorescence from circularly polarized, pulsed light stays constant over all angles between the magnetic field and the laser beam. Fluorescence from circularly polarized, continuous wave light decreases as the angle increases. This is expected.
+	\item The fluorescence from circularly polarized, pulsed light and circularly polarized, continuous wave light is not equal at $0^{\circ}$. Circularly polarized, continuous wave light has the lowest fluorescence overall. This is not expected.
+	\item The fluorescence from linearly polarized, pulsed and continuous wave light stays roughly constant over all angles. This is expected.
+\end{itemize}
+
+The most important aspect of these data is the different trends seen in the fluorescence from the circularly polarized, continuous wave light and the circularly polarized, pulsed light. For circularly polarized, continuous wave light, the fluorescence should decrease with increasing angle since the magnetic field at increasing angles is redistributing the total angular momenta of the atoms, degrading the benefits of optical pumping. However, with pulsed light, the atoms are only being pumped at one point in their precession cycle. To the light, the atom seems to not be precessing at all, and the benefits of optical pumping are restored. Thus, for all angles, the fluorescence from the circularly polarized, pulsed light should stay constant, which it does.
+
+There are, however, a few concerns with these data. Firstly, the fluorescence from circularly polarized, continuous wave and pulsed light is not equal at $0^{\circ}$. Secondly, circularly polarized, continuous wave light should result in higher fluorescence than linearly polarized, continuous wave light (this is optical pumping, described in Chapter 2), which these data do not show. It is possible that these problems are results of the intensity of the continuous wave light, which was found to be classified in a high intensity regime \cite{Kane2014}. At these intensities, transition saturation (one of the ``three evils'' of LGS, also known as depumping) becomes a  problem. Transition saturation is the decay of atoms to a lower ground state (the second hyperfine ground state) after emission of a photon. Atoms in this lower ground state cannot be excited by our laser since this transition requires a different wavelength for excitation. For high intensities, a significant number of atoms can decay into this lower ground state since atoms are being excited as rapidly as possible. This results in less atoms that can absorb and emit light, thereby decreasing the overall fluorescence (this is described more in the following section). To mitigate the consequences of transition saturation, data were taken with CW light at a lower intensity (a power of around \SI{1}{\milli \watt}). These data, shown in Fig. \ref{fig:flvangle2}, show the correct vertical positions that are expected as well as the same trends seen in the previous data. 
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.8\textwidth]{../../MRPData/MAR24/together.pdf}
+	\caption{Fluorescence of rubidium atoms in a magnetic field of approximately 1.3 Gauss as a function of the angle between the field and the laser beam in the high intensity case. Data of pulsed and continuous laser light circularly and linearly polarized are shown. Circularly polarized light with a repetition rate equal to the Larmor frequency gives the highest return for all magnetic field orientations.}
+	\label{fig:flvangle}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=0.8\textwidth]{../../MRPData/April16/together.pdf}
+	\caption{Fluorescence of rubidium atoms in a magnetic field of approximately a few Gauss as a function of the angle between the field and the laser beam in the low intensity case. Data of pulsed and continuous laser light circularly and linearly polarized are shown. Circularly polarized light with a repetition rate equal to the Larmor frequency gives the highest return for all magnetic field orientations.}
+	\label{fig:flvangle2}
+\end{figure}
+
+In order to look at overall trends and to better visualize the changes in fluorescence with increasing angle, we calculate the percent of maximum fluorescence, and plot them as well in Fig. \ref{fig:flvanglescaled}. We report a 33\% decrease in fluorescence for continuous wave, circularly polarized laser beams and a 2\% decrease in fluorescence for MRP laser beams at an angle of $90 ^{\circ}$ between the laser beam and the magnetic field.
+
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}{.48\textwidth}
+	\centering
+		\includegraphics[width=0.9\textwidth]{../../MRPData/April16/togetherscaled.pdf}
+	\end{minipage}
+	\begin{minipage}{.48\textwidth}
+	\centering
+		\includegraphics[width=0.9\textwidth]{../../MRPData/MAR24/togetherscaled.pdf}
+	\end{minipage}
+	\caption{Percent of maximum fluorescence with respect to the maximum of rubidium atoms in a magnetic field of approximately 1.3 G as a function of the angle between the field and the laser beam. The low intensity case is shown on the left and the high intensity case shown on the right. Data of pulsed and continuous laser light circularly and linearly polarized are shown. Circularly polarized light with a repetition rate equal to the Larmor frequency gives the highest return for all magnetic field orientations.}
+	\label{fig:flvanglescaled}
+\end{figure}
+
+\subsection{Repumping}
+The transition we have been looking at so far is the $D_{2}$ transition, which is an excitation from the F = 2 to the excited state. As mentioned earlier and described in other papers \cite{Kane2014}, it is possible for atoms to decay into the lower ground state, F = 1, which cannot be accessed by our laser. This results in atoms falling into a dark state, causing an overall decrease in fluorescence. Thus, we introduced a repumper laser capable of accessing this transition. This would allow atoms in the second hyperfine ground state to be excited, thereby allowing that atom to contribute to the overall fluorescence. We theorized that the addition of this repumper would correct the incorrect vertical scale for circularly polarized, continuous wave light, seen in Fig \ref{fig:flvangle}. 
+
+The repumper consisted of the same diode laser as described Section 3.2. However, the diffraction grating for this laser has a slightly different angle than the main laser, thus changing its wavelength enough to access the excitation from the second hyperfine ground state. The repumper beam was overlapped with the main laser beam using a polarizing beam splitting cube. This resulted in the repumper beam having linear polarization orthogonal to the main laser beam polarization. This results in the repumper beam having $\sigma^{-}$ circular polarization after linear to circular polarization conversion. As mentioned earlier, the main laser has $\sigma^{+}$ circular polarization.
+
+We measured the fluorescence at $0^{\circ}$ and at $90^{\circ}$ between the laser and magnetic field for varying levels of repumper laser power. The fluorescence measurements were taken with three different levels of repumper percentages (rempumper power divided by main laser power): 0\%, 10\%, and 20\%. The data of these three levels are shown in Fig. \ref{fig:0repump}. We did not find the addition of the repumper to increase fluorescence for the pulsed laser. Instead, we found the opposite to be true! As repumper percentage increases, the fluorescence from the pulsed laser \textit{decreases} significantly.
+
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{../../MRPData/Repumping/20scaled.pdf}
+	\caption{Fluorescence as percentage of maximum fluorescence versus the angle between the laser beam and magnetic field is shown for repumper percentages of 0\%, 10\%, and 20\%. The dashed lines do not constitute data but are shown to guide the eye.}
+	\label{fig:0repump}
+\end{figure}
+
+
+We believe this trend to be true because of the polarization and CW mode of the repumper. The repumper has $\sigma^{-}$ circular polarization, which pushes atoms into lower angular momentum states as opposed to the main laser, which pushed atoms into higher angular momentum states. We can quickly and \textit{roughly} estimate if this is significant or not. The main laser has a repetition rate of \SI{700}{\kilo Hz} and a duty cycle of 20\%. Thus, each pulse width is about \SI{0.28}{\micro \second}. In this time, a cycling transition needs to be established. Since the  repumper is on all the time (continuous wave), it has a very large amount of time (compared to the main pulsed laser) to push atoms into the lowest angular momentum state, $m_F = -4$. Then as the main laser pumps the atoms, it will take roughly 10 transitions to get to the cycling transition of highest angular momentum (there are only 7 transitions, but each transition has roughly a 1/3 probability\footnote{The probability is actually not 1/3, nor do the transitions have the same probability. We use a 1/3 probability in order to get a rough estimate. See Steck (2001) for more information on decay rates \cite{steck}.} of decaying into a lower angular momentum state). The life time of an excited state is \SI{1.6e-8}{\second} \cite{steck}. Thus, it will take \SI{0.26}{\micro \second} to reach a cycling transition. However, this is roughly the pulse width, so in the time that it takes the atoms to get into the cycling transition, the pulse has ended and the repumper pushes the atoms back down to the lowest angular momentum state, undoing the whole effort. Thus, the cycling transition cannot be maintained. Going forward, the repumper should be pulsed along with the main laser so that it is only acting in conjunction with the main laser. Furthermore, the repumper should have the same polarization as the main laser so that it does not push atoms down to lower angular momentum states but instead pushes atoms towards higher angular momentum states where a cycling transition can be established.
+
+Lastly, we wanted to fix some of the problems we found with the first fluorescence versus angle data taken, shown in Fig. \ref{fig:flvangle}. It was seen that the fluorescence from the circularly polarized, continuous wave light was significantly lower than the fluorescence from the circularly polarized, pulsed light, which was not expected. We thought that this might be due to the transition saturation, and theorized that a repumper would fix this problem. We thus retook this data for circularly polarized, pulsed light at \SI{1.5}{\milli W}, circular continuous light at \SI{6}{\milli \watt} without a repumper, and circular continuous light at \SI{6}{\milli W} with 20\% repumper. These data are shown in Fig. \ref{fig:flvanglerepump}, and it is seen that the repumper indeed increases fluorescence to the proper vertical position. This confirmed that transition saturation was occurring for laser beams with high intensity in our data.
+
+\begin{figure}[htpb]
+	\centering
+	\includegraphics[width=0.8\textwidth]{../../MRPData/Repumping/transat.pdf}
+	\caption{Fluorescence versus angle for circular pulsed light, circular continuous light, and circular continuous light with the repumper.}
+	\label{fig:flvanglerepump}
+\end{figure}
+
+\subsection{Backscatter Fluorescence}
+All of the previous data were measured using photodiode 1 (from top down) since this allowed the collection of light to not be interrupted with the rotation of the main coils. In order to ensure that backscatter fluorescence indeed followed these same trends (since telescopes rely on the backscattered light from laser guide stars), we took two data points, at $0^{\circ}$ and $90^{\circ}$ measured with photodiode 2 (backscatter). Only two data points were taken because, for many angles, the main coils were in between the rubidium cell and the photodiode. These data confirm that MRP behaves similarly when measuring backscatter. These data are shown in Fig. \ref{fig:backscatter} as the raw data and as percentage changes from maximum fluorescence. The backscatter fluorescence was shown to decrease by nearly 18\% for a change in angle from $0^{\circ}$ to $90^{\circ}$.
+
+\begin{figure}[htb]
+	\centering
+	\begin{minipage}{.49\textwidth}
+	\centering
+		\includegraphics[width=0.9\textwidth]{../../MRPData/Backscatter/backscatter.pdf}
+	\end{minipage}
+	\begin{minipage}{.49\textwidth}
+	\centering
+		\includegraphics[width=0.9\textwidth]{../../MRPData/Backscatter/backscatterScaled.pdf}
+	\end{minipage}
+	\caption{Fluorescence for circularly polarized light with continuous light and pulsed light at the Larmor frequency; raw data is shown on the left and percent changes from maximum fluorescence data on the right. It is seen that backscatter agrees well with the data taken from top down. The dashed lines do not constitute data but are shown to guide the eye.}
+	\label{fig:backscatter}
+\end{figure}
+
+

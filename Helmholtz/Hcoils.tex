@@ -1,0 +1,66 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+\linespread{1}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage[]{geometry}
+\begin{document}
+
+\section*{Helmholtz Coils for MRP}
+
+The length of the saturated absorption cell is $l_c = \SI{8}{\centi \meter}$ and has a radius of $r_c = \SI{1.25}{\centi \meter}$. In order to create a magnetic field around this, we will use Helmholtz coils. The magnetic field of Helmholtz coils is given by
+
+\begin{equation}
+		B = \left(\frac{4}{5} \right) ^{3/2} \frac{\mu_0 nI}{R}.
+		\label{eq:hcoils}
+\end{equation}
+
+We want to have the following conditions satisfied:
+
+\begin{itemize}
+		\item $I = \SI{1}{A}$
+		\item $\SI{0}{g} \leq B \leq \SI{10}{g}$
+		\item $R = \SI{27/2}{\centi \meter} = \SI{.135}{\meter}$
+\end{itemize}
+
+
+Solving for the number of turns in each Helmholtz coil $n$ to create the maximum magnetic field of $\SI{10}{gauss}$, we find
+
+\begin{equation}
+\begin{align*}
+		n & = \left( \frac{5}{4} \right) ^{3/2} \frac{RB}{\mu_0 I}\\
+		  & = \left( \frac{5}{4} \right) ^{3/2} \frac{(\SI{.135}{\meter}) (\SI{.001}{T})}{\left( \SI{4\pi e-7}{T \meter \per A}\right) \left( \SI{1}{A} \right) }\\
+		  & \approx \SI{150}{turns}
+\end{align*}
+		\label{ncoils}
+\end{equation}
+
+
+With of wire gauge of about 20 AWG (is this about standard?), the wire will have a diameter of about $w_d = \SI{1}{\milli \meter}$ and will be able to hold up to $\SI{10}{A}$. The width of the coil will then need to be
+
+\begin{equation}
+\begin{align*}
+				L_{coil} &= \left( \frac{n}{x} \right) w_d\\
+						 & = \left( \frac{150}{3} \right) \SI{1}{\milli \meter}\\
+				& = \SI{5}{\centi \meter}
+		\end{align*}
+		\label{length of coil}
+\end{equation}
+
+where $n$ is the number of turns and $x$ is the number of times the wire is layered (3 layers in this situation).
+
+
+We will thus need length of wire 
+\begin{equation}
+		\begin{align*}
+				l_{wire} & = n * \text{circumference} * \SI{2}{coils}\\
+			 & = \SI{150}{turns}*  2\pi \left( \SI{27/2}{\centi \meter} \right) * 2\\
+				& = \SI{250}{\meter}
+		\end{align*}
+		\label{length of wire}
+\end{equation}
+
+
+
+\end{document}

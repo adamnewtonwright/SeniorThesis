@@ -22,7 +22,7 @@ import tkinter.messagebox
 from PIL import Image, ImageTk
 
 # Remember to check your Arduino Serial Connection and make sure it matches below
-arduinoData = serial.Serial('/dev/cu.usbmodem1411',9600)
+#arduinoData = serial.Serial('/dev/cu.usbmodem1411',9600)
 
 
 #This variable will count the total number of steps in a certain direction

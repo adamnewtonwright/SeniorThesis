@@ -1,0 +1,148 @@
+\documentclass[30pt, a0paper, landscape]{tikzposter}
+\usepackage[utf8]{inputenc}
+ 
+\title{Improving Laser Guide Stars through Magnetic Resonant Pulsing}
+\author{Adam Newton Wright}
+\date{\today}
+\institute{Willamette University}
+ 
+\usepackage{graphicx}
+\usepackage{tikz}
+% Removes inscription at bottom right hand side of poster ``later tikzposter''
+\tikzposterlatexaffectionproofoff
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% colors
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolorstyle{sampleColorStyle}{
+	% Willamette official cardinal
+	\definecolor{cardinal}{RGB}{121,23,22}
+	% Willamette official gold
+	\definecolor{gold}{RGB}{188,155,98}
+	}{
+	% Background Colors
+	\colorlet{backgroundcolor}{white}
+	\colorlet{framecolor}{white}
+	% Title Colors
+	\colorlet{titlefgcolor}{gold}
+	\colorlet{titlebgcolor}{cardinal}
+	% Block Colors
+	\colorlet{blocktitlebgcolor}{cardinal}
+	\colorlet{blocktitlefgcolor}{gold}
+	\colorlet{blockbodybgcolor}{white}
+	\colorlet{blockbodyfgcolor}{black}
+	% Innerblock Colors
+	\colorlet{innerblocktitlebgcolor}{white}
+	\colorlet{innerblocktitlefgcolor}{black}
+	\colorlet{innerblockbodybgcolor}{colorThree!30!white}
+	\colorlet{innerblockbodyfgcolor}{black}
+	% Note colors
+	\colorlet{notefgcolor}{cardinal}
+	\colorlet{notebgcolor}{cardinal}
+    \colorlet{noteframecolor}{cardinal}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title layout
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definetitlestyle{sampletitle}{
+	width=1200mm,roundedcorners=20, linewidth=2pt, innersep=5pt,titletotopverticalspace=0mm, titletoblockverticalspace=10mm
+}{
+\begin{scope}[line width=\titlelinewidth, rounded corners=\titleroundedcorners]
+	% Red box at top
+	\draw[color=blocktitlebgcolor, fill=titlebgcolor]
+		(\titleposleft,\titleposbottom) rectangle (\titleposright,\titlepostop);
+	%Willamette Compass Logo
+	\node at (\titleposleft+150,\titleposbottom+125)
+			{\includegraphics[scale = .75]{compass.png}};
+	% Your Labs Logo
+	\node at (\titleposright-200,\titleposbottom+125)
+			{\includegraphics[scale = 1]{kleinertlogo.png}};
+\end{scope}
+}
+ 
+% Using styles defined above
+\usecolorstyle{sampleColorStyle}
+\usetitlestyle{sampletitle}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document Body
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+ 
+\maketitle
+
+
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Block environment creates a block across the whole page
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\block{Introduction}
+{
+}
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create columns
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{columns}
+\centering
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create blocks in each column
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    \column{0.333}
+		\block{More text}{Text and more text}
+    \column{0.333}
+		\block{Something else}{Here, \vspace{4cm}}
+	\column{.333}
+	\block[]{Something else}{Here}
+	\block[]{Something else}{}
+\end{columns}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% References, contact information, funding
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\colorlet{blockbodybgcolor}{cardinal}
+\colorlet{blockbodyfgcolor}{gold}
+\block[]{}
+{
+	%Left Column
+	\begin{minipage}{.33\textwidth}
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		% Contact Information
+		%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+		Contact Information:\\
+		Adam Newton Wright\\
+		anwright@willamette.edu
+	\end{minipage}
+	% Center column
+	\begin{minipage}{.33\textwidth}
+		\begin{description}
+			%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			% You can put some references here
+			%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			\item Kane
+			\item Hillman...
+		\end{description}
+	\end{minipage}
+	%right column
+	\begin{minipage}{.33\textwidth}
+		\begin{minipage}{.15\textwidth}
+			%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			% NSF Logo or whatever you please
+			%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			\includegraphics{nsf.png}
+		\end{minipage}
+		\begin{minipage}{.7\textwidth}
+			%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			% Whatever you need to say to please those who 
+			% give you money $$$
+			%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			This work was supported by this person and thenational science foundation and by many other people and I would like to thank them all for everything taht they have done for me and this research
+		\end{minipage}
+	\end{minipage}
+}
+ 
+\end{document}

@@ -1,0 +1,29 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{WMB{\etalchar{+}}06}
+
+\bibitem[CER]{opticalpumping}
+CERN.
+\newblock Spin polarization by optical pumping.
+\newblock \url{https://collaps.web.cern.ch/beta-nmr/spin-polarization}.
+\newblock Accessed: 12.11.2017.
+
+\bibitem[KHD14]{Kane2014}
+T.~J. Kane, P.~D. Hillman, and C.~A. Denman.
+\newblock Pulsed laser architecture for enhancing backscatter from sodium.
+\newblock {\em International Society for Optics and Photonics}, 9148:3G, 2014.
+
+\bibitem[Kib09]{Kibblewhite2009}
+E.~Kibblewhite.
+\newblock The physics of the sodium laser guide star: Predicting and enhancing
+  the photon returns.
+\newblock {\em Advanced Maui Optical and Space Surveilance Technologies
+  Conference}, 2009.
+
+\bibitem[WMB{\etalchar{+}}06]{Wizinowich2006}
+P.L. Wizinowich, D.L. Mignant, A.~H. Bouchez, R.~D. Campbell, J.~C.~Y. Chin,
+  A.~R. Contos, M.~A. van Dam, S.~K. Hartman, E.~M. Johansson, and R.~E. Lafon.
+\newblock The {W.M. Keck} observatory laser guide star adaptive optics system:
+  Overview.
+\newblock {\em Astronomical Society of the Pacific}, 118:840, 2006.
+
+\end{thebibliography}

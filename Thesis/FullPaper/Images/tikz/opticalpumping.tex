@@ -1,0 +1,70 @@
+\documentclass[]{standalone}
+\usepackage{tikz}
+\begin{document}
+	\begin{tikzpicture}
+		% S
+		\node (S) at (0,0) {$^{2}S_{1/2}$};
+		\draw[line width = 3.0pt] (S.south west) -- (S.south east);
+		\draw (S.south east) -- +(.5,-.5) node (s12);
+		\draw (S.south east) -- +(.5,.5) node (s32);;
+		\draw[line width = 3.0pt] (s32)+(0,0) -- +(1,0) node at +(.5,.35) {$3/2$};
+		\draw[line width = 3.0pt] (s12)+(0,0) -- +(1,0) node at +(.5,.35) {$1/2$};
+
+		%P
+		\node (P) at (0,3) {$^{2}P_{3/2}$};
+		\draw[line width = 3.0pt] (P.south west) -- (P.south east);
+		\draw (P.south east) -- +(.5,-.75) node (p12);
+		\draw (P.south east) -- +(.5,0) node (p32);;
+		\draw (P.south east) -- +(.5,.75) node (p52);;
+		\draw[line width = 3.0pt] (p52)+(0,0) -- +(1,0) node at +(.5,.35) {$5/2$};
+		\draw[line width = 3.0pt] (p32)+(0,0) -- +(1,0) node at +(.5,.35) {$3/2$};
+		\draw[line width = 3.0pt] (p12)+(0,0) -- +(1,0) node at +(.5,.35) {$1/2$};
+
+
+		%top line
+		\pgfmathsetmacro{\n}{-5};
+		\foreach \index in {0,2,4,...,10}
+		{
+			\draw[line width = 3.0pt] (p52)+(1.5+\index,0) -- +(2.5+\index,0) node at +(2+\index,.35) {\pgfmathtruncatemacro{\n}{\n+\index}\n/2};
+		}
+
+		% Middle line
+		\foreach \index in {0,2,4,...,6}
+		{
+			\draw[line width = 3.0pt] (s32)+(3.5+\index,0) -- +(4.5+\index,0) node at +(4+\index,-.35) {\pgfmathtruncatemacro{\n}{\n+\index+2}\n/2};
+
+		% bottom line
+		}
+		\foreach \index in {2,4,...,4}
+		{
+			\draw[line width = 3.0pt] (s12)+(3.5+\index,0) -- +(4.5+\index,0) node at +(4+\index,-.35) {\pgfmathtruncatemacro{\n}{\n+\index+4}\n/2};
+		}
+		%Excitation
+		\foreach \n in {4.5,6.5,...,10.5}
+			{
+				\draw[->, >=stealth, line width = 3.0pt] (\n+.25, .5) -- (\n+2,3);
+			}
+		%Decay
+		\foreach \n in {6.5,8.5,...,8.5}
+			{
+				\foreach \m in {-1.75,0,1.75}
+				{
+					\draw[->, >=stealth] (\n+.5, 3) -- (\n+.5+\m,.25);
+				}
+			}
+		\draw[->, >=stealth] (11, 3) -- (9.25,.25);
+		\draw[->, >=stealth] (11, 3) -- (11,.25);
+		\draw[<->, >=stealth, dashed, line width = 1.6pt] (13, 3) -- (11.25,.25);
+		\node at (15.1,1) {Cycling};
+		\node at (15.3,0.5) {Transition};
+		\draw[<->, >=stealth, dashed, line width = 1.6pt] (14.5,0) -- (16,0);
+		\node at (15,2) {Decay};
+		\draw[->, >=stealth] (14.5,1.5) -- (16,1.5);
+		\node at (14.5,3) {$\sigma^{+}$};
+		\node at (15.75,3) {Excitation};
+		\draw[->, >=stealth,line width = 3.0pt] (14.5,2.5) -- (16,2.5);
+		\draw[dashed] (2.25,-1) -- (2.25,4);
+		\draw (14,-.5) rectangle (17,3.5);
+			
+	\end{tikzpicture}
+\end{document}

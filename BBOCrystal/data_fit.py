@@ -25,31 +25,43 @@ def fit_fc(params, x, data):
 
 
 params = Parameters()
-params.add('y0', value = 500.0, min = 400.0 , max = 650.0)
-params.add('slope0', value = 0, min = -20, max = 20)
+params.add('y0', value = 125.0, min = 50.0 , max = 200.0)
+params.add('slope0', value = 0, min = -10, max = 10)
 
 leastsq_kws={"ftol":1e-22, "xtol":1e-22, "gtol":1e-22, 'maxfev': 500000} # This tells Python what we consider a good enough fit. 
-result = minimize(fit_fc, params, args=(T, R), method = 'leastsqr', **leastsq_kws) # Here we're telling it to use the least-square fitting method.
+result = minimize(fit_fc, params, args=(R, T), method = 'leastsqr', **leastsq_kws) # Here we're telling it to use the least-square fitting method.
 
 report_fit(result.params, show_correl = True, min_correl = 1e-3) # This reports the fitting results.
 print(fit_report(result, min_correl = 1e-10)) # Print out the final report, including uncertainty.
 
-xplot = T # An elegant way to set up the x-axis.
+xplot = R # An elegant way to set up the x-axis.
 yplot = np.array(result.params['slope0']) * xplot + result.params['y0'] # NOTE that the np.array is SUPER IMPORTANT!! OTherwise it dies with a cryptic error message!
 
 plt.yticks(fontsize=16)    
 plt.xticks(fontsize=16) 
 
-xdiff = np.max(T) - np.min(T)
-ydiff = np.max(R) - np.min(R)
-plt.xlim(np.min(T)-np.sqrt(xdiff),np.max(T)+np.sqrt(xdiff))
-plt.ylim(np.min(R)-np.sqrt(ydiff),np.max(R)+np.sqrt(ydiff))
+xdiff = np.max(R) - np.min(R)
+ydiff = np.max(T) - np.min(T)
+plt.xlim(np.min(R)-np.sqrt(xdiff),np.max(R)+np.sqrt(xdiff))
+plt.ylim(np.min(T)-np.sqrt(ydiff),np.max(T)+np.sqrt(ydiff))
 
-plt.title('Resistance versus Temperature for BBO thermistor')
-plt.xlabel('Temperature (˚C)')
-plt.ylabel('Resistance (kΩ)')
+#plt.title('Resistance versus Temperature for BBO thermistor')
+plt.ylabel('Temperature (˚C)')
+plt.xlabel('Resistance (kΩ)')
 
 plt.plot(xplot, yplot) # Show the fit as well as the original data.
-plt.plot(T, R,'ro')
+plt.plot(R, T,'ro')
 plt.grid(True)
+plt.savefig('../Thesis/FullPaper/Images/bestfitRvT.pdf')
 plt.show()
+
+
+plt.figure()
+plt.plot(I,T,'.')
+#plt.title()
+plt.xlabel('Current (A)')
+plt.ylabel('Temperature (˙C)')
+plt.grid(True)
+plt.savefig('../Thesis/FullPaper/Images/TvsI.pdf')
+plt.show()
+

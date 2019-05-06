@@ -1,0 +1,22 @@
+\documentclass[]{standalone}
+\usepackage{tikz}
+\begin{document}
+  \begin{tikzpicture}
+	  \foreach \x in {0,3,...,6}{
+		  \draw (\x,0) -- +(2.5,0);
+		  \draw (\x+2.5,0) -- +(0,2);
+		  \draw (\x+2.5,2) -- +(.5,0);
+		  \draw (\x+3,2) -- +(0,-2);
+  }
+	  \foreach \x in {0,3,...,6}{
+		  \draw[dashed] (\x+2.5,1.75) -- +(1,0); 
+		  \draw[dashed] (\x+3.5,1.75) -- +(0,-1.75); 
+  }
+
+  \draw[<->, >=stealth] (2.5,-.5) --node[above] {$1$ ps} +(.5,0) ;
+  \draw[<->, >=stealth] (2.5,-1) --node[above] {$1$ ns} +(1,0);
+  \draw[<->, >=stealth] (2.5,-1.5) --node[above] {$1 \mu$s} +(3,0);
+  \draw (9,0) -- +(.5,0);
+  \node at (0,-1.7);
+  \end{tikzpicture}
+\end{document}

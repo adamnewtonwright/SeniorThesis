@@ -1,0 +1,3 @@
+Coil separation: 10.25 cm
+Magnetic field probe: 9.5 cm radially
+

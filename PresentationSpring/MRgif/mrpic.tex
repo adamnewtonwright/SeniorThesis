@@ -1,0 +1,61 @@
+\documentclass[tikz]{standalone}
+\usepackage{tikz}
+\begin{document}
+%\noindent
+\foreach \angle in {45,46,...,135}
+{
+	\begin{tikzpicture}
+		\node at (-12,0);
+		\node at (2,0);
+		\node at (0,3.5) {\Large$\vec B$};
+		\draw[->, blue, line width = 3pt] (sphere.center) -- (\angle:2) node at (\angle:2.3){$\vec \mu$};
+		\shade[ ball color = red] (0,0) circle [radius=1cm] node (sphere){};
+		\draw[->,  line width = 3pt] (sphere.center) -- (0,3);
+	    \shade [ ball color = red] (0,0) circle [radius=1cm] node (sphere){};
+	\draw[green, line width =5pt] ({-12+(\angle-45)*10/180},0) -- +(1,0);
+	\end{tikzpicture}
+	\pagebreak
+	\\
+}
+\foreach \angle in {135,134,...,90}
+{
+	\begin{tikzpicture}
+		\node at (-12,0);
+		\node at (2,0);
+		\node at (0,3.5) {\Large$\vec B$};
+		\shade[ ball color = red] (0,0) circle [radius=1cm] node (sphere){};
+		\draw[->,  line width = 3pt] (sphere.center) -- (0,3);
+	    \shade [ ball color = red] (0,0) circle [radius=1cm] node (sphere){};
+	\draw[->, blue, line width = 3pt] (\angle:{cos(\angle - 135)}) -- (\angle:2) node at (\angle:2.3){$\vec \mu$};
+	\draw[green, line width =5pt] ({-12+(225-\angle)*10/180},0) -- +(1,0);
+	\end{tikzpicture}
+	\pagebreak
+	\\
+}
+\foreach \angle in {90,89,...,45}
+{
+	\begin{tikzpicture}
+		\node at (-12,0);
+		\node at (2,0);
+		\node at (0,3.5) {\Large$\vec B$};
+		\shade[ ball color = red] (0,0) circle [radius=1cm] node (sphere){};
+		\draw[->,  line width = 3pt] (sphere.center) -- (0,3);
+	    \shade [ ball color = red] (0,0) circle [radius=1cm] node (sphere){};
+	\draw[->, blue, line width = 3pt] (\angle:{cos(\angle-405)}) -- (\angle:2) node at (\angle:2.3){$\vec \mu$};
+	\draw[green, line width =5pt] ({-12+(225-\angle)*10/180},0) -- +(1,0);
+	\end{tikzpicture}
+	\pagebreak
+	\\
+}
+\begin{tikzpicture}
+	\node at (-12,0);
+	\node at (2,0);
+	\node at (0,3.5) {\Large$\vec B$};
+	\shade[ ball color = green] (0,0) circle [radius=1cm] node (sphere){};
+	\draw[->,  line width = 3pt] (sphere.center) -- (0,3);
+	\shade [ ball color = green] (0,0) circle [radius=1cm] node (sphere){};
+	\draw[->, blue, line width = 3pt] (45:1) -- (45:2) node at (45:2.3){$\vec \mu$};
+%\draw[green, line width =5pt] ({-12+(225-\angle)*10/180},0) -- +(1,0);
+\end{tikzpicture}
+\pagebreak
+\end{document}

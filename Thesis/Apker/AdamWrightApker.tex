@@ -1,0 +1,145 @@
+\documentclass[12pt]{report}
+\usepackage{../Style/WUbiblio,../Style/WUthesis}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb} 
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage[mode = buildnew]{standalone}
+%\usepackage{hyperref}
+\usepackage{marvosym}
+\usepackage{url}
+\usepackage{pdfpages}
+
+\DeclareSIUnit\gauss{G}
+\usetikzlibrary{decorations.pathmorphing}
+\pgfplotsset{compat=1.7}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Improving Laser Guide Stars through Magnetic Resonant Pulsing}
+\author{Adam Newton Wright}
+\thesissupervisor{Dr. Michaela Kleinert}
+
+\includepdf[pages=1-2]{../ApkerSummary/AWrightApkerSummary.pdf}
+\newpage
+
+\maketitle
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Summary
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\noindent\textbf{\Huge Summary}\\
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Presentations
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+\textbf{Presentations and Publications}\\
+\end{center}
+
+\begin{description}
+\item Adam N. Wright, \textit{Increasing Laser Guide Star Fluorescence through Magnetic Resonant Pulsing}, Senior Symposium, Linfield College, April 2018\\
+	
+\item Adam N. Wright, \textit{Improving Laser Guide Stars through Magnetic Resonant Pulsing}, Senior Theses, Student Scholarship Recognition Day, Willamette University, April 2018\\
+
+\item Adam N. Wright, \textit{Increasing Atomic Fluorescence: Magnetic Resonant Pulsing}, Poster Session, Institute of Optics, University of Arizona, January 2018\\
+	
+\item Adam N. Wright, \textit{Improving Laser Guide Stars through Magnetic Resonant Pulsing}, Senior Thesis Presentation I, Willamette University, December 2017\\
+
+\item Adam N. Wright, \textit{Focus Recovery in Computational Microscopy}, Research Experience for Undergraduates, University of Rochester, August 2017\\
+
+\item Adam N. Wright, \textit{Improving Laser Guide Stars through Magnetic Resonant Pulsing}, Senior Thesis Proposal, Willamette University, May 2017\\
+
+\item Donald Swen, Adam N. Wright, \textit{Construction, Calibration, and Application of Dye Lasers}, Student Scholarship Recognition Day, Willamette University, April 2017\\
+
+
+\end{description}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Acknowledgements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{acknowledgments}
+I would like to acknowledge and thank the following people and organizations for the help and support they have given me and this project:
+
+\begin{description}
+   \item Dr. Michaela Kleinert, for her support as an academic and laboratory advisor. She is an amazing professor and mentor with an extraordinary ability to teach, mentor, and advise. I am incredibly grateful for the opportunity to work and learn under her.
+   \item Dr. Jed Rembold, for his help with Vim, LaTex, and Python. He has given me a passion for most things computing, and has inspired many projects and helped me when those projects became riddled with bugs. 
+   \item Luke Galbraith Russell, for his friendship. He has helped me stay passionate about physics, encouraged me when I was stressed out, spent long nights doing homework with me, and went to the gym with me the next morning at 6 am. 
+   \item All of my lab partners, everyone in the Kleinert Lab, and the Physics cohort. You all are so awesome, helpful, and encouraging!
+   \item The Physics Department professors: Dr. Daniel Borrero, Dr. Rick Watkins, Dr. David Altman, and Dr. Roberta Bigelow. You all are incredible wizards and have taught me everything I know.
+   \item The National Science Foundation, for their financial support.
+   \item Dr. Scott Bergeson from Brigham Young University, for his collaboration and support.
+\end{description}
+
+
+\end{acknowledgments}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Abstract
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{Abstract/Abstracts}
+
+\tableofcontents
+%\listoftables
+\listoffigures
+
+\pagebreak
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Introduction
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Introduction/intro.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Background
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Background/back}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Apparati
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Apparati/apparat.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Conclusion
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Conclusion/conc.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Appendix/app.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{amsalpha}
+\bibliography{thesisbib}
+
+\appendix
+%\include{notebook}
+
+\end{document}

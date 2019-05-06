@@ -8,51 +8,147 @@
 \usepackage{siunitx}
 \usepackage{tikz}
 \usepackage{pgfplots}
+\usepackage[mode = buildnew]{standalone}
+%\usepackage{hyperref}
+\usepackage{marvosym}
+\usepackage{url}
+
+\DeclareSIUnit\gauss{G}
+\usetikzlibrary{decorations.pathmorphing}
 \pgfplotsset{compat=1.7}
-
-
 
 \begin{document}
 
-\title{Magnetic Resonant Pulsed Pumping of Rubidium}
+\title{Improving Laser Guide Stars through Magnetic Resonant Pulsing}
 \author{Adam Newton Wright}
-\thesissupervisor{Dr. Micheala Kleinert}
+\thesissupervisor{Dr. Michaela Kleinert}
 
 \maketitle
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dedication
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
+%\vspace*{\fill}
+%
+%\textit{``And God said, `Let there be light,' and there was light. God saw that the light was good, and he separated the light from the dark.''}
+%\begin{flushright}
+%Genesis 1:3
+%\end{flushright}
+%\vspace*{\fill}
 
+\newpage
+\vspace*{\fill}
+
+This thesis is dedicated to my mom and dad, Valerie and Harry Lankford. Not only have you given me the gift of education, that which I will never be able to express my gratitiude in full, but have supported me continually and unconditionally. I hope to be a parent of similar caliber someday and to be able to give my children the gift you have given me.
+
+\begin{flushright}
+Adam Newton Wright\\
+\textit{Willamette University}\\
+May, 2018
+\end{flushright}
+
+
+\vspace*{\fill}
 
 \newpage
 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Presentations
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{center}
 \textbf{Presentations and Publications}\\
-blahblah
 \end{center}
 
+\begin{description}
+\item Adam N. Wright, \textit{Increasing Laser Guide Star Fluorescence through Magnetic Resonant Pulsing}, Senior Symposium , Linfield College, April 2018\\
+	
+\item Adam N. Wright, \textit{Improving Laser Guide Stars through Magnetic Resonant Pulsing}, Senior Theses, Student Scholarship Recognition Day, Willamette University, April 2018\\
+
+\item Adam N. Wright, \textit{Increasing Atomic Fluorescence: Magnetic Resonant Pulsing}, Poster Session, Institute of Optics, University of Arizona, January 2018\\
+	
+\item Adam N. Wright, \textit{Improving Laser Guide Stars through Magnetic Resonant Pulsing}, Senior Thesis Presentation I, Willamette University, December 2017\\
+
+\item Adam N. Wright, \textit{Focus Recovery in Computational Microscopy}, Research Experience for Undergraduates, University of Rochester, August 2017\\
+
+\item Adam N. Wright, \textit{Improving Laser Guide Stars through Magnetic Resonant Pulsing}, Senior Thesis Proposal, Willamette University, May 2017\\
+
+\item Donald Swen, Adam N. Wright, \textit{Construction, Calibration, and Application of Dye Lasers}, Student Scholarship Recognition Day, Willamette University, April 2017\\
 
 
+\end{description}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Acknowledgements
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{acknowledgments}
-Thanks to everyone!
+I would like to acknowledge and thank the following people and organizations for the help and support they have given me and this project:
+
+\begin{description}
+   \item Dr. Michaela Kleinert, for her support as an academic and laboratory advisor. She is an amazing professor and mentor with an extraordinary ability to teach, mentor, and advise. I am incredibly grateful for the opportunity to work and learn under her.
+   \item Dr. Jed Rembold, for his help with Vim, LaTex, and Python. He has given me a passion for most things computing, and has inspired many projects and helped me when those projects become riddled with bugs. 
+   \item Luke Galbraith Russell, for his friendship. He has helped me stay passionate about physics, encouraged me when I am stressed out, spent long nights doing homework with me, and went to the gym with me the next morning at 6 am. 
+   \item All of my lab partners, everyone in the Kleinert Lab, and the Physics cohort. You all are so awesome, helpful, and encouraging!
+   \item The Physics Department professors: Dr. Daniel Borrero, Dr. Rick Watkins, Dr. David Altman, and Dr. Roberta Bigelow. You all are incredible wizards and have taught me everything I know.
+   \item The National Science Foundation, for their financial support.
+   \item Dr. Scott Bergeson from Brigham Young University, for your collaboration and support.
+\end{description}
+
+
 \end{acknowledgments}
 
-\begin{abstract}
-My abstract goes here.
-\end{abstract}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Abstract
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{Abstract/Abstracts}
 
 \tableofcontents
-\listoftables
+%\listoftables
 \listoffigures
 
 \pagebreak
-\cite{LukinZoller2001}
-%Chapter 1: 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Introduction
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{Introduction/intro.tex}
 
-%Chapter 2: 
-%inputinclude{apparatus}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Background
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Background/back}
 
-%\bibliographystyle{urcsbiblio}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Apparati
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Apparati/apparat.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Conclusion
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Conclusion/conc.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Appendix/app.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \bibliographystyle{amsalpha}
-\bibliography{../ThesisBib/thesisbib}
+\bibliography{thesisbib}
 
 \appendix
 %\include{notebook}

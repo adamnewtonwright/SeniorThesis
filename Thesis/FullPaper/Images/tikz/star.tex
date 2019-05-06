@@ -1,0 +1,17 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes,snakes}
+\begin{document}
+
+\pagestyle{empty}
+
+\begin{tikzpicture}[scale=2]
+    \tikzstyle{ann} = [draw=none,fill=none,right]
+    \matrix[nodes={draw, ultra thick, fill=blue!20},
+        row sep=0.3cm,column sep=0.5cm] {
+			\node[star,star points=10,fill = blue] at (2,2) {    };&\\
+    };
+\end{tikzpicture}
+
+
+\end{document}

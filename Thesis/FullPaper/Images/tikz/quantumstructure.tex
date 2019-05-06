@@ -1,0 +1,81 @@
+\documentclass[]{standalone}
+\usepackage{tikz}
+\begin{document}
+  \begin{tikzpicture}
+	% n1
+	\node at (0,0) (n1b) {\footnotesize$n=1$};
+	\node[below of = n1b, node distance = .5cm] {\footnotesize$L=0$};
+	\node at (0,2) (n2b) {\footnotesize$n=2$};
+	\node[below of = n2b, node distance = .5cm] {\footnotesize$L=0,1$};
+	% BOHR
+	\node[below of = n1b, node distance = 2cm] (bohr) {\large Bohr};
+	% FINE
+	\node[right of = bohr, node distance = 4cm] (fine) {\large Fine};
+	% Hyperfine
+	\node at (8,-2.05) (hyperfine) {\large Hyperfine};
+	%ZEEMAn
+	\node[right of = fine, node distance = 8cm] (zeeman) {\large Zeeman};
+	
+	%\draw (0,-2.25) -- +(15,0);
+
+	\draw (n2b.east) -- +(1,0) node (n2l0);
+	\draw (n1b.east) -- +(1,0) node (n1l0);
+
+	\draw (n1l0) +(0,-.01) -- +(.5,.5) node[right] (n1l0f) {\footnotesize$L = 0$};
+	\draw (n2l0) +(0,-.01) -- +(.5,.5) node[right] (n2l0f) {\footnotesize$L = 0$};
+	\draw (n2l0) +(0,-.01) -- +(0,2) node[right] (n2l1f);
+	\draw (n2l1f) +(-.15,-.01) -- +(.5,.5) node[right] (n2l1fa) {\footnotesize$L = 1$};
+
+	\draw (n1l0f) -- +(1.5,0) node [right] (n1l0j1) {\footnotesize$J = \frac{1}{2}$};
+	\draw (n2l0f) -- +(1.5,0) node [right] (n2l0j1){\footnotesize$J = \frac{1}{2}$};
+	\draw (n2l1fa.right) -- +(.7,.5) node (n2l1j3) [right] {\footnotesize$J = \frac{3}{2}$};
+	\draw (n2l1fa.right) -- +(.7,-.5) node (n2l1j1) [right] {\footnotesize$J = \frac{1}{2}$};
+
+	\draw (n1l0j1) -- +(2.0,0) node (n1l0j1a);
+	\draw (n2l0j1) -- +(2.0,0) node (n2l0j1a);
+	\draw (n2l1j1) -- +(2.0,0) node (n2l1j1a);
+	\draw (n2l1j3) -- +(2.0,0) node (n2l1j3a);
+
+	\draw (n1l0j1a) +(-.01,-.01) -- +(.5,.3) node[right] (n0f2) {\footnotesize$F = 2$};
+	\draw (n1l0j1a) +(-.01,-.01) -- +(.5,-.3) node[right] (n0f1) {\footnotesize$F = 1$};
+	\draw (n2l0j1a) +(-.01,-.01) -- +(.5,-.3) node[right] (n2l0f1) {\footnotesize$F = 1$};
+	\draw (n2l0j1a) +(-.01,-.01) -- +(.5,+.3) node[right] (n2l0f2) {\footnotesize$F = 2$};
+	\draw (n2l1j1a) +(-.01,-.01) -- +(.7,-.3) node[right] (n2l1j1f1) {\footnotesize$F = 1$};
+	\draw (n2l1j1a) +(-.01,-.01) -- +(.7,.3) node[right] (n2l1j1f2) {\footnotesize$F = 2$};
+	\draw (n2l1j3a) +(-.01,-.01) -- +(.7,-.3) node[right] (n2l1j3f0) {\footnotesize$F = 0$};
+
+	\draw (n2l1j3a) +(-.01,-.01) -- +(0,.75) node (top);
+
+	\draw (top) +(-.01,-.01) -- +(.7,-.3) node[right] (n2l1j3f1) {\footnotesize$F = 1$};
+	\draw (top) +(-.01,-.01) -- +(.7,0) node[right] (n2l1j3f2) {\footnotesize$F = 2$};
+	\draw (top) +(-.01,-.01) -- +(.7,.3) node[right] (n2l1j3f3) {\footnotesize$F = 3$};
+
+	\draw (n0f2) -- +(2,0) node (n0f2a);
+	\draw (n0f1) -- +(2,0) node (n0f1a);
+	\draw (n2l0f1) -- +(2,0);
+	\draw (n2l0f2) -- +(2,0);
+	\draw (n2l1j1f1) -- +(2,0);
+	\draw (n2l1j3f2) -- +(2,0);
+	\draw (n2l1j3f3) -- +(2,0);
+	\draw (n2l1j1f2) -- +(2,0);
+	\draw (n2l1j3f1) -- +(2,0);
+	\draw (n2l1j3f0) -- +(2,0);
+
+	\draw (n0f1a) + (0,-.2) -- +(0,.2);
+	\draw (n0f1a) + (0.,.2) -- +(1.5,.2);
+	\draw (n0f1a) + (0.,0) -- +(1.5,0) node[right] {\footnotesize$m_F = -\frac{1}{2},...,\frac{1}{2}$};
+	\draw (n0f1a) + (0.,-.2) -- +(1.5,-.2);
+
+	\draw (n0f2a) + (0,-.2) -- +(0,.2);
+	\draw (n0f2a) + (0.,.2) -- +(1.5,.2);
+	\draw (n0f2a) + (0.,.1) -- +(1.5,.1) node[right] {\footnotesize$m_F = -\frac{3}{2},...,\frac{3}{2}$};
+	\draw (n0f2a) + (0.,0) -- +(1.5,0);
+	\draw (n0f2a) + (0.,-.1) -- +(1.5,-.1);
+	\draw (n0f2a) + (0.,-.2) -- +(1.5,-.2);
+
+	%\foreach \x in {1,2,...,3}{
+	%		\draw (n2 -- +(0,2);
+	%}
+  \end{tikzpicture}
+
+\end{document}

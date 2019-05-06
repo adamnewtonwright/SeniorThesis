@@ -21,11 +21,11 @@ import tkinter
 import tkinter.messagebox
 
 # Remember to check your Arduino Serial Connection and make sure it matches below
-arduinoData = serial.Serial('/dev/cu.usbmodem1411',9600)
+#arduinoData = serial.Serial('/dev/cu.usbmodem1411',9600)
 
 
 def move_on(): #this simplies moves the motor, need to define direction first
-    arduinoData.write(b'1')
+    arduinoData.write(b'1') # Talking in binary
     give = int(entry.get())
     i = 0
     while i < give:
@@ -38,6 +38,7 @@ def left(): #cw, here we need to set the direction pin
 def right(): #ccw
     arduinoData.write(b'3')
 
+# This is all just to create a user interface
 control_window = tkinter.Tk()
 control_window.title("Dye Laser") # Giving it a title.
 

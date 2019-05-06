@@ -1,0 +1,33 @@
+\documentclass[]{article}
+\usepackage{graphicx}
+\linespread{1}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{tikz}
+\usepackage[]{geometry}
+\usepackage{pdfpages}
+
+\title{Improving Laser Guide Stars through Magnetic Resonant Pulsing}
+\author{Adam N. Wright}
+\date{\today}
+
+
+\begin{document}
+\maketitle
+
+\thispagestyle{empty}
+\noindent Modern astronomy relies on the ability of telescopes to capture high resolution images of celestial objects. However, due to atmospheric distortion, the quality of telescopic images taken from Earth is greatly reduced, significantly impairing the ability of state-of-the-art telescopes. There are, however, a few methods to combat atmospheric distortion. One possibility is to launch a telescope into orbit, outside of Earth's atmosphere where atmospheric distortion cannot affect observations. This was done with extraordinary success with the Hubble telescope near the end of the twentieth century. However, this is not only very expensive, but it is also technically challenging to maintain the telescope. An alternative method keeps telescopes on Earth's ground and utilizes two elements: a laser guide star and adaptive optics. Laser guide stars (LGS) are artificial stars created by shining laser light into the atmosphere where it is absorbed and then spontaneously emitted by sodium atoms that were deposited by meteors as they ablate upon entering Earth's upper atmosphere. The adaptive optics system, a complex system of deformable mirrors and computer algorithms, records the image of the artificial star, compares it to the image of an ideal point source imaged through the same optical system without distortion, calculates the difference and thus the distortion, and effectively subtracts this distortion from the image of the celestial object. Through this process, the resolution of telescopic images is greatly improved and the effect of atmospheric distortion is strongly reduced.
+
+In order for adaptive optics systems to perform well, they need to be able to collect as much information from the LGS as possible and, thus, a good LGS is very bright, ensuring that enough light is sent to the adaptive optics system. Therefore, LGS systems employ lasers of high intensity to achieve high irradiance. However, at higher intensities, the number of returned photons begins to decrease as laser intensity increases due to transition saturation (i.e. depumping), the decay of atoms to a lower ground state inaccessible to the specific wavelength of the laser. Thus, in addition to increasing laser intensity, many LGS systems use circularly polarized light to increase the number of returned photons through optical pumping. Using circularly polarized light establishes a cycling transition between the atom's two highest angular momentum states, effectively creating a two level atomic system, which increases LGS brightness significantly. However, since sodium atoms possess a magnetic moment, they interact with the geomagnetic field of the Earth. The torque that this magnetic field exerts on the atom's magnetic moment causes a precession of the atom's total atomic angular momentum vector (Larmor precession) with a frequency known as the Larmor frequency (around 200-400 kHz in Earth's magnetic field of around half of a Gauss). This precession decreases the overall efficiency of optical pumping since the atom's angular momentum vector is changing in time, and a cycling transition between the atom's two highest angular momentum states cannot be established. Thus, LGS are not achieving the highest irradiance possible, especially at latitudes near the equator where the angle between the laser beam and the direction of the magnetic field is greatest.
+
+\thispagestyle{empty}
+However, in a recent paper by Kane et al. \cite{Kane2014}, it is suggested that a method called \textit{magnetic resonant pulsing} (MRP) can solve the issue of Larmor precession. MRP is the use of circularly polarized laser light pulsed specifically at the Larmor frequency of the atoms. This ensures that laser light is only interacting with the atoms at one point in their precession cycle, appearing as if the atom's angular momentum vector is not changing in time with respect to the pulses of light. This allows a two-level cycling transition between the atom's two highest angular momentum levels to be fully established, increasing the irradiance of LGS.
+
+I tested magnetic resonant pulsing by measuring the fluorescence of rubidium atoms inside a magnetic field and excited by laser light pulsed at the corresponding Larmor frequency. Rubidium was used due to its atomic similarity to sodium and since it is the overall focus of my advisor's lab, reducing the overall cost of this experiment. The laser used was a continuous wave diode laser on resonance with rubidium at wavelength $\lambda =$ 780.24 nm and ``chopped'' with an acousto-optic modulator (AOM) controlled by a function generator. We could operate it in continuous wave mode or pulsed mode at repetition rates of 200 kHz - 2 MHz with a variable duty cycle between 20\% and 100\%. A magnetic field variable in strength (from 0 - 10 G) and variable in orientation with respect to the laser beam was built using a pair of Helmholtz coils. The coils could be rotated allowing the angle between the direction of the magnetic field and the laser beam to be changed from $0^{\circ}$ to $90^{\circ}$. A second set of Helmholtz coils was used outside of the previous coils to cancel stray magnetic fields. Rubidium atoms were contained inside a quartz absorption cell and their fluorescence was measured with a pair of photodiodes located above and next to the absorption cell.
+
+With a magnetic field of \SI{1.2}{ G} perpendicular to the direction of the laser beam, we saw the fluorescence of rubidium atoms increase by 14\% as the repetition rate of the laser was varied from out-of-resonance to in-resonance. Furthermore, it was shown that the fluorescence increased by nearly 30\% when the laser was switched from continuous wave mode to magnetic resonant pulsed mode for a magnetic field oriented perpendicular to the laser beam. These results confirmed that magnetic resonant pulsing is indeed a way to mitigate Larmor precession and increase LGS brightness and are currently in preparation for publication.
+
+\newpage
+\bibliographystyle{amsalpha}
+\bibliography{thesisbib}
+\end{document}
